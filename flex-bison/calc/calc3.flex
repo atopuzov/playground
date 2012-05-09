@@ -2,7 +2,7 @@
 
 %{
 
-#include "calc.tab.h"
+#include "calc3.tab.h"
 
 %}
 
