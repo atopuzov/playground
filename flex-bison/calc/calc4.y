@@ -12,7 +12,7 @@
 }
 
 /* declare tokens */
-%token NUM%token <d> NUMBER
+%token <d> NUMBER
 %token EOL
 
 %type <a> exp factor term
