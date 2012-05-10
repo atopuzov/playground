@@ -1,6 +1,6 @@
 
 
-TARGETS=calc1 calc2 calc3 calc4 calc5
+TARGETS=calc1 calc2 calc3 calc4 calc5 calc6
 calc1: calc1.flex
 	flex -o calc1.yy.c $<
 	gcc -o $@ calc1.yy.c -lfl
@@ -24,9 +24,12 @@ calc5: calc5.flex calc5.y routines.h routines.c
 	flex -o calc5.yy.c calc5.flex
 	gcc -o $@ calc5.tab.c calc5.yy.c routines.c -lfl
 
+calc6: calc6.flex calc6.y routines6.h routines6.c
+	bison -d calc6.y
+	flex -o calc6.yy.c calc6.flex
+	gcc -o $@ calc6.tab.c calc6.yy.c routines6.c -lfl
 
 all: ${TARGETS}
 	
-
 clean:
 	rm -rf ${TARGETS} *.yy.c *.tab.c *.tab.h
