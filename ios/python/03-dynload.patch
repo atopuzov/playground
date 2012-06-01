@@ -1,0 +1,18 @@
+--- Python-2.6.8/Python/dynload_shlib.c	2012-04-10 17:32:11.000000000 +0200
++++ Python-2.6.8-nesto/Python/dynload_shlib.c	2012-05-29 14:33:21.000000000 +0200
+@@ -83,6 +83,15 @@
+ 
+     PyOS_snprintf(funcname, sizeof(funcname),
+                   LEAD_UNDERSCORE "init%.200s", shortname);
++    
++    /* On IOS, dlopen crash as soon as we try to open one of our
++       library. Instead, we have done a redirection of linking to
++       convert our .so into a .a.  Then the main executable is linked
++       with theses symbol. So, instead of trying to dlopen, directly
++       do the dlsym.
++    */
++
++    return (dl_funcptr) dlsym(RTLD_MAIN_ONLY, funcname);
+ 
+     if (fp != NULL) {
+         int i;
