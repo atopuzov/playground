@@ -1,0 +1,216 @@
+--- Python-2.6.6/Modules/Setup.dist	2008-11-27 11:15:12.000000000 +0100
++++ Python-2.6.6-dev/Modules/Setup.dist	2012-06-01 16:29:51.000000000 +0200
+@@ -115,7 +115,7 @@
+ posix posixmodule.c		# posix (UNIX) system calls
+ errno errnomodule.c		# posix (UNIX) errno values
+ pwd pwdmodule.c			# this is needed to find out the user's home dir
+-				# if $HOME is not set
++                        # if $HOME is not set
+ _sre _sre.c			# Fredrik Lundh's new regular expressions
+ _codecs _codecsmodule.c		# access to the builtin codecs and codec registry
+ 
+@@ -162,52 +162,52 @@
+ # it, depending on your system -- see the GNU readline instructions.
+ # It's okay for this to be a shared library, too.
+ 
+-#readline readline.c -lreadline -ltermcap
++# readline readline.c -lreadline -ltermcap
+ 
+ 
+ # Modules that should always be present (non UNIX dependent):
+ 
+-#array arraymodule.c	# array objects
+-#cmath cmathmodule.c # -lm # complex math library functions
+-#math mathmodule.c # -lm # math library functions, e.g. sin()
+-#_struct _struct.c	# binary structure packing/unpacking
+-#time timemodule.c # -lm # time operations and variables
+-#operator operator.c	# operator.add() and similar goodies
+-#_weakref _weakref.c	# basic weak reference support
+-#_testcapi _testcapimodule.c    # Python C API test module
+-#_random _randommodule.c	# Random number generator
+-#_collections _collectionsmodule.c # Container types
+-#itertools itertoolsmodule.c	# Functions creating iterators for efficient looping 
+-#strop stropmodule.c		# String manipulations
+-#_functools _functoolsmodule.c	# Tools for working with functions and callable objects
+-#_elementtree -I$(srcdir)/Modules/expat -DHAVE_EXPAT_CONFIG_H -DUSE_PYEXPAT_CAPI _elementtree.c	# elementtree accelerator
+-#_pickle _pickle.c	# pickle accelerator
+-#datetime datetimemodule.c	# date/time type
+-#_bisect _bisectmodule.c	# Bisection algorithms
++array arraymodule.c	# array objects
++cmath cmathmodule.c # -lm # complex math library functions
++math mathmodule.c # -lm # math library functions, e.g. sin()
++_struct _struct.c	# binary structure packing/unpacking
++time timemodule.c # -lm # time operations and variables
++operator operator.c	# operator.add() and similar goodies
++_weakref _weakref.c	# basic weak reference support
++_testcapi _testcapimodule.c    # Python C API test module
++_random _randommodule.c	# Random number generator
++_collections _collectionsmodule.c # Container types
++itertools itertoolsmodule.c	# Functions creating iterators for efficient looping 
++strop stropmodule.c		# String manipulations
++_functools _functoolsmodule.c	# Tools for working with functions and callable objects
++_elementtree -I$(srcdir)/Modules/expat -DHAVE_EXPAT_CONFIG_H -DUSE_PYEXPAT_CAPI _elementtree.c	# elementtree accelerator
++# _pickle _pickle.c	# pickle accelerator
++datetime datetimemodule.c	# date/time type
++_bisect _bisectmodule.c	# Bisection algorithms
+ 
+-#unicodedata unicodedata.c    # static Unicode character database
++unicodedata unicodedata.c    # static Unicode character database
+ 
+ # access to ISO C locale support
+-#_locale _localemodule.c  # -lintl
++_locale _localemodule.c  # -lintl
+ 
+ 
+ # Modules with some UNIX dependencies -- on by default:
+ # (If you have a really backward UNIX, select and socket may not be
+ # supported...)
+ 
+-#fcntl fcntlmodule.c	# fcntl(2) and ioctl(2)
++fcntl fcntlmodule.c	# fcntl(2) and ioctl(2)
+ #spwd spwdmodule.c		# spwd(3) 
+-#grp grpmodule.c		# grp(3)
+-#select selectmodule.c	# select(2); not on ancient System V
++grp grpmodule.c		# grp(3)
++select selectmodule.c	# select(2); not on ancient System V
+ 
+ # Memory-mapped files (also works on Win32).
+-#mmap mmapmodule.c
++mmap mmapmodule.c
+ 
+ # CSV file helper
+-#_csv _csv.c
++_csv _csv.c
+ 
+ # Socket module helper for socket(2)
+-#_socket socketmodule.c
++_socket socketmodule.c
+ 
+ # Socket module helper for SSL support; you must comment out the other
+ # socket line above, and possibly edit the SSL variable:
+@@ -221,15 +221,15 @@
+ #
+ # First, look at Setup.config; configure may have set this for you.
+ 
+-#crypt cryptmodule.c # -lcrypt	# crypt(3); needs -lcrypt on some systems
++crypt cryptmodule.c # -lcrypt	# crypt(3); needs -lcrypt on some systems
+ 
+ 
+ # Some more UNIX dependent modules -- off by default, since these
+ # are not supported by all UNIX systems:
+ 
+ #nis nismodule.c -lnsl	# Sun yellow pages -- not everywhere
+-#termios termios.c	# Steen Lumholt's termios module
+-#resource resource.c	# Jeremy Hylton's rlimit interface
++termios termios.c	# Steen Lumholt's termios module
++resource resource.c	# Jeremy Hylton's rlimit interface
+ 
+ 
+ # Multimedia modules -- off by default.
+@@ -237,7 +237,7 @@
+ # #993173 says audioop works on 64-bit platforms, though.
+ # These represent audio samples or images as strings:
+ 
+-#audioop audioop.c	# Operations on audio samples
++audioop audioop.c	# Operations on audio samples
+ #imageop imageop.c	# Operations on images
+ 
+ 
+@@ -248,14 +248,14 @@
+ # Message-Digest Algorithm, described in RFC 1321.  The necessary files
+ # md5.c and md5.h are included here.
+ 
+-#_md5 md5module.c md5.c
++_md5 md5module.c md5.c
+ 
+ 
+ # The _sha module implements the SHA checksum algorithms.
+ # (NIST's Secure Hash Algorithms.)
+-#_sha shamodule.c
+-#_sha256 sha256module.c
+-#_sha512 sha512module.c
++_sha shamodule.c
++_sha256 sha256module.c
++_sha512 sha512module.c
+ 
+ 
+ # SGI IRIX specific modules -- off by default.
+@@ -354,7 +354,7 @@
+ #	-lX11
+ 
+ # Lance Ellinghaus's syslog module
+-#syslog syslogmodule.c		# syslog daemon interface
++syslog syslogmodule.c		# syslog daemon interface
+ 
+ 
+ # Curses support, requring the System V version of curses, often
+@@ -430,14 +430,14 @@
+ 
+ 
+ # Helper module for various ascii-encoders
+-#binascii binascii.c
++binascii binascii.c
+ 
+ # Fred Drake's interface to the Python parser
+-#parser parsermodule.c
++parser parsermodule.c
+ 
+ # cStringIO and cPickle
+-#cStringIO cStringIO.c
+-#cPickle cPickle.c
++cStringIO cStringIO.c
++cPickle cPickle.c
+ 
+ 
+ # Lee Busby's SIGFPE modules.
+@@ -460,7 +460,8 @@
+ # Andrew Kuchling's zlib module.
+ # This require zlib 1.1.3 (or later).
+ # See http://www.gzip.org/zlib/
+-#zlib zlibmodule.c -I$(prefix)/include -L$(exec_prefix)/lib -lz
++zlib zlibmodule.c -I$(prefix)/include -L$(exec_prefix)/lib -lz
++bz2 bz2module.c -lbz2
+ 
+ # Interface to the Expat XML parser
+ #
+@@ -473,23 +474,32 @@
+ #
+ # More information on Expat can be found at www.libexpat.org.
+ #
+-#pyexpat expat/xmlparse.c expat/xmlrole.c expat/xmltok.c pyexpat.c -I$(srcdir)/Modules/expat -DHAVE_EXPAT_CONFIG_H -DUSE_PYEXPAT_CAPI
++pyexpat expat/xmlparse.c expat/xmlrole.c expat/xmltok.c pyexpat.c -I$(srcdir)/Modules/expat -DHAVE_EXPAT_CONFIG_H -DUSE_PYEXPAT_CAPI
+ 
+ 
+ # Hye-Shik Chang's CJKCodecs
+ 
+ # multibytecodec is required for all the other CJK codec modules
+-#_multibytecodec cjkcodecs/multibytecodec.c
++_multibytecodec cjkcodecs/multibytecodec.c
+ 
+-#_codecs_cn cjkcodecs/_codecs_cn.c
+-#_codecs_hk cjkcodecs/_codecs_hk.c
+-#_codecs_iso2022 cjkcodecs/_codecs_iso2022.c
+-#_codecs_jp cjkcodecs/_codecs_jp.c
+-#_codecs_kr cjkcodecs/_codecs_kr.c
+-#_codecs_tw cjkcodecs/_codecs_tw.c
++_codecs_cn cjkcodecs/_codecs_cn.c
++_codecs_hk cjkcodecs/_codecs_hk.c
++_codecs_iso2022 cjkcodecs/_codecs_iso2022.c
++_codecs_jp cjkcodecs/_codecs_jp.c
++_codecs_kr cjkcodecs/_codecs_kr.c
++_codecs_tw cjkcodecs/_codecs_tw.c
+ 
+ # Example -- included for reference only:
+ # xx xxmodule.c
+ 
+ # Another example -- the 'xxsubtype' module shows C-level subtyping in action
+ xxsubtype xxsubtype.c
++
++_json _json.c
++_heapq _heapqmodule.c
++future_builtins future_builtins.c
++_hotshot _hotshot.c
++_fileio _fileio.c
++_bytesio _bytesio.c
++# _ctypes _ctypes/_ctypes.c _ctypes/callbacks.c _ctypes/callproc.c _ctypes/stgdict.c _ctypes/cfield.c _ctypes/malloc_closure.c -lffi
++
