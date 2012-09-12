@@ -1,12 +1,20 @@
 def is_power_of_two(number):
-    # if number == 0:
-    #     return False
+    if number == 0:
+        return False
     # if number == 1:
     #     return True
     # else:
     #     return (number & (number-1)) == 0
     # return (number != 0) and ((number & (number-1)) == 0)
     return (number & -number) == number
+
+def is_power_of_two_i(number):
+    i = 0
+    while i<64:
+        if number == 2**i:
+            return True
+        i+=1
+    return False
 
 def which_power_of_two(number):
     if number == 1:
@@ -42,4 +50,5 @@ num = int('1101011',2)
 print trailing_ones(num)
 
 print is_power_of_two(2048), is_power_of_two(0), is_power_of_two(1), is_power_of_two(2)
+print is_power_of_two_i(2048), is_power_of_two_i(0), is_power_of_two_i(1), is_power_of_two_i(2)
 print which_power_of_two(2048), which_power_of_two(4096), which_power_of_two(2**14)

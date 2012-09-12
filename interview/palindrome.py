@@ -14,5 +14,5 @@ def is_palindrome_recursive(string):
             is_palindrome_recursive(string[1:-1])
 
 a = "anavolimilovana"
-print is_palindrome_recursive(a)
-print is_palindrome_iterative(a)
+print a, is_palindrome_recursive(a)
+print a, is_palindrome_iterative(a)

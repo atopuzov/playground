@@ -1,12 +1,10 @@
-import cv
-import time
-import Image
+import cv, time, Image
 
 cv.NamedWindow("camera", 1)
 capture = cv.CreateCameraCapture(0)
 
-width = None
-height = None
+#width = None
+#height = None
 width = 640
 height = 480
 
