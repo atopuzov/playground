@@ -17,6 +17,7 @@ def flatten(x):
 
 cr = re.compile("\r\n")
 nl = re.compile("\n+")
+ws = re.compile("(\t| )+")
 
 # ----------------------------------------------------------------------------------------
 class MyBaseParser(HTMLParser):
@@ -45,9 +46,10 @@ class MyBaseParser(HTMLParser):
     def handle_entityref(self, name):
         self.out.append( '&%s;' % name )
     def handle_charref(self, name):
-        self.out.append( '&#%s' % name )
+        self.out.append( '&#%s;' % name )
     def close(self):
         return nl.sub('\n',''.join(self.out))
+        # return ''.join(self.out)
     def push_tag_to_stack(self, tag):
         self.stack.append( (tag, len(self.out)) )
     def get_tag_at(self, pos):
@@ -130,43 +132,40 @@ class RemoveHTMLInPre(MyBaseParser):
         if self.inpre:
             return
         MyBaseParser.handle_endtag(self, tag)
+    # def handle_data(self, data):
+    #     if not self.inpre:
+    #         data = ws.sub(' ', data)
+    #     MyBaseParser.handle_data(self, data)
 # ----------------------------------------------------------------------------------------
 class RmTopTable(MyBaseParser):
-    def __init__(self, tables_to_remove = 1, *args, **kwargs):
+    def __init__(self,  *args, **kwargs):
         MyBaseParser.__init__(self, *args, **kwargs)
         self.table_tags = [ 'td', 'tr', 'th', 'thead', 'tbody', 'tfoot', 
-                            'colgroup', 'col', 'caption' ]
+                            'colgroup', 'col', 'caption', 'table' ]
         self.table = 0
-        self.out = []
-        self.tables_to_remove = tables_to_remove
         self.tables_to_remove = 1
+        self.out = []
 
     def handle_starttag(self, tag, attrs):
         if tag == "table":
             self.table += 1
-
         if self.table <= self.tables_to_remove and tag in self.table_tags:
-            # print "Removing tag:", tag
             return
-
         if tag == "table":
-            # print "Starting: div"
             MyBaseParser.handle_starttag(self, 'div', '')
         MyBaseParser.handle_starttag(self, tag, attrs)
 
     def handle_endtag(self, tag):
-        if tag == "table":
-            # print self.table
-            self.table -= 1
-
-        if self.table >= self.tables_to_remove and tag in self.table_tags:
+        if self.table <= self.tables_to_remove and tag in self.table_tags:
             if tag == 'tr':
                 MyBaseParser.handle_starttag(self, 'br', '')
+            elif tag == 'table':
+                self.table -= 1
             return
 
         MyBaseParser.handle_endtag(self, tag)
         if tag == "table":
-            # print "Ending: div"
+            self.table -= 1
             MyBaseParser.handle_endtag(self, 'div')
 # ----------------------------------------------------------------------------------------
 class MyHTMLParser(MyBaseParser):
@@ -278,5 +277,5 @@ f = open(filename, 'w')
 f.write(out)
 f.close()
 
-#print out
+# print out
 
