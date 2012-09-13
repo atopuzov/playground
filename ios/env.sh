@@ -12,6 +12,8 @@ function set_dev_env(){
     export OPTFLAGS="-pipe -O3 -I${ODIR}/include"
     export CFLAGS="-isysroot ${SDKROOT} ${PLATFORM_VERSION_MIN} ${ARCHFLAGS} ${OPTFLAGS}"
     export CXXFLAGS=${CFLAGS}
+    export OBJCFLAGS=${CFLAGS}
+    export OBJCXXFLAGS=${CFLAGS}
     export CC="clang"
     export CXX="clang++"
 }
