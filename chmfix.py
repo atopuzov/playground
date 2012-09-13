@@ -93,19 +93,17 @@ class RemoveTagsAndCleanup(MyBaseParser):
             return
 
         if self.stack and self.get_tag_at(-1) != tag:
-            #print "Unexpected tag:", tag, ", stack:", self.get_tags()
+            print >> sys.stderr, "Unexpected tag:", tag, ", stack:", self.get_tags()
             top_tag = self.get_tag_at(-1)
             if top_tag == "table":
                 if tag in ['td', 'tr']:
                     return
-
-            if top_tag == "td" and tag == "tr":
-                #print "End tag:", self.get_tags(), tag
-                self.handle_endtag(top_tag)
-                self.handle_endtag(tag)
+            if not tag in self.get_tags():
+                print >> sys.stderr, "Ignoring tag:", tag
                 return
-                
-            #print "No help for:", self.get_tags(), tag
+            print >> sys.stderr, "Closing previous tag:", top_tag
+            self.handle_endtag(top_tag)
+            self.handle_endtag(tag)
             return
         
         assert(self.stack)
@@ -223,6 +221,7 @@ class MyHTMLParser(MyBaseParser):
         if tag == "table":
             self.in_table = False
             if self.delete:
+                # print >> sys.stderr, "Deleting:", self.out[-self.length-1:]
                 self.out = self.out[:-self.length-1]
                 self.delete = False
                 return
@@ -256,7 +255,7 @@ parser2 = MyHTMLParser()
 parser3 = RmTopTable()
 
 filename = sys.argv[1]
-#print filename
+# print filename
 f = open(filename, 'r')
 out = f.read()
 f.close()
