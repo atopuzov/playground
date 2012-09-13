@@ -107,7 +107,7 @@ if __name__ == '__main__' :
         if _files:
             for _file in _files:
                 fileExtension = os.path.splitext(_file)[1]
-                if fileExtension:
+                if fileExtension and fileExtension in [ '.html', '.gif', '.jpg', '.css' ]:
                     files.append(os.path.join(_path,_file))
     files.sort(alphanum)
     
