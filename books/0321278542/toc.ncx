@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE ncx PUBLIC "-//NISO//DTD ncx 2005-1//EN" "http://www.daisy.org/z3986/2005/ncx-2005-1.dtd">
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1">
+    <head>
+        <meta name="dtb:uid" content="urn:uuid:2902578e-06cf-4c12-9cc9-55784fa3aac6"/>
+        <meta name="dtb:depth" content="1"/>
+        <meta name="dtb:totalPageCount" content="0"/>
+        <meta name="dtb:maxPageNumber" content="0"/>
+    </head>
+    <docTitle>
+        <text>Mac OS X Internals: A Systems Approach</text>
+    </docTitle>
+    <navMap>
+        <navPoint id="navPoint-1" playOrder="1">
+            <navLabel>
+                <text>Table of Contents</text>
+            </navLabel>
+            <content src="toc.html"/>
+        </navPoint>
+        <navPoint id="navPoint-2" playOrder="2">
+            <navLabel>
+                <text>Copyright</text>
+            </navLabel>
+            <content src="copyrightpg.html"/>
+        </navPoint>
+        <navPoint id="navPoint-3" playOrder="3">
+            <navLabel>
+                <text>Preface</text>
+            </navLabel>
+            <content src="pref01.html"/>
+        </navPoint>
+        <navPoint id="navPoint-4" playOrder="4">
+            <navLabel>
+                <text>Acknowledgments</text>
+            </navLabel>
+            <content src="pref02.html"/>
+        </navPoint>
+        <navPoint id="navPoint-5" playOrder="5">
+            <navLabel>
+                <text>About the Author</text>
+            </navLabel>
+            <content src="pref03.html"/>
+        </navPoint>
+        <navPoint id="navPoint-6" playOrder="6">
+            <navLabel>
+                <text>Chapter 1. Origins of Mac OS X</text>
+            </navLabel>
+            <content src="ch01.html"/>
+        </navPoint>
+        <navPoint id="navPoint-7" playOrder="7">
+            <navLabel>
+                <text>Chapter 2. An Overview of Mac OS X</text>
+            </navLabel>
+            <content src="ch02.html"/>
+        </navPoint>
+        <navPoint id="navPoint-8" playOrder="8">
+            <navLabel>
+                <text>Chapter 3. Inside an Apple</text>
+            </navLabel>
+            <content src="ch03.html"/>
+        </navPoint>
+        <navPoint id="navPoint-9" playOrder="9">
+            <navLabel>
+                <text>Chapter 4. The Firmware and the Bootloader</text>
+            </navLabel>
+            <content src="ch04.html"/>
+        </navPoint>
+        <navPoint id="navPoint-10" playOrder="10">
+            <navLabel>
+                <text>Chapter 5. Kernel and User-Level Startup</text>
+            </navLabel>
+            <content src="ch05.html"/>
+        </navPoint>
+        <navPoint id="navPoint-11" playOrder="11">
+            <navLabel>
+                <text>Chapter 6. The xnu Kernel</text>
+            </navLabel>
+            <content src="ch06.html"/>
+        </navPoint>
+        <navPoint id="navPoint-12" playOrder="12">
+            <navLabel>
+                <text>Chapter 7. Processes</text>
+            </navLabel>
+            <content src="ch07.html"/>
+        </navPoint>
+        <navPoint id="navPoint-13" playOrder="13">
+            <navLabel>
+                <text>Chapter 8. Memory</text>
+            </navLabel>
+            <content src="ch08.html"/>
+        </navPoint>
+        <navPoint id="navPoint-14" playOrder="14">
+            <navLabel>
+                <text>Chapter 9. Interprocess Communication</text>
+            </navLabel>
+            <content src="ch09.html"/>
+        </navPoint>
+        <navPoint id="navPoint-15" playOrder="15">
+            <navLabel>
+                <text>Chapter 10. Extending the Kernel</text>
+            </navLabel>
+            <content src="ch10.html"/>
+        </navPoint>
+        <navPoint id="navPoint-16" playOrder="16">
+            <navLabel>
+                <text>Chapter 11. File Systems</text>
+            </navLabel>
+            <content src="ch11.html"/>
+        </navPoint>
+        <navPoint id="navPoint-17" playOrder="17">
+            <navLabel>
+                <text>Chapter 12. The HFS Plus File System</text>
+            </navLabel>
+            <content src="ch12.html"/>
+        </navPoint>
+        <navPoint id="navPoint-18" playOrder="18">
+            <navLabel>
+                <text>Appendix A. Mac OS X on x86-Based Macintosh Computers</text>
+            </navLabel>
+            <content src="app01.html"/>
+        </navPoint>
+    </navMap>
+</ncx>
