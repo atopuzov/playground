@@ -1,0 +1,914 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="BookId" version="2.0">
+    <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+        <dc:title>Advanced Programming in the UNIX® Environment, Second Edition</dc:title>
+        <dc:language>en-US</dc:language>
+        <dc:identifier id="ISBN" opf:scheme="ISBN">0201433079</dc:identifier>
+        <dc:creator opf:file-as="Stevens, W. Richard" opf:role="aut">W. Richard Stevens</dc:creator>
+        <dc:creator opf:file-as="Rago, Stephen A." opf:role="aut">Stephen A. Rago</dc:creator>
+        <dc:description>Advanced Programming in the UNIX® Environment, Second Edition, by W. Richard Stevens and Stephen A. Rago</dc:description>
+        <dc:publisher>Addison Wesley Professional</dc:publisher>
+        <dc:date opf:event="publication">2005-07-17</dc:date>
+        <dc:rights>Copyright © 2005 Pearson Education, Inc.</dc:rights>
+        <meta name="cover" content="cover.jpg"/>
+    </metadata>
+    <manifest>
+        <item href="toc.ncx" id="ncx" media-type="application/x-dtbncx+xml"/>
+        <item href="toc.html" id="toc.html" media-type="application/xhtml+xml"/>
+        <item href="pref01.html" id="pref01.html" media-type="application/xhtml+xml"/>
+        <item href="pref02.html" id="pref02.html" media-type="application/xhtml+xml"/>
+        <item href="pref03.html" id="pref03.html" media-type="application/xhtml+xml"/>
+        <item href="pref04.html" id="pref04.html" media-type="application/xhtml+xml"/>
+        <item href="pref05.html" id="pref05.html" media-type="application/xhtml+xml"/>
+        <item href="pref05lev1sec1.html" id="pref05lev1sec1.html" media-type="application/xhtml+xml"/>
+        <item href="pref05lev1sec2.html" id="pref05lev1sec2.html" media-type="application/xhtml+xml"/>
+        <item href="pref05lev1sec3.html" id="pref05lev1sec3.html" media-type="application/xhtml+xml"/>
+        <item href="pref06.html" id="pref06.html" media-type="application/xhtml+xml"/>
+        <item href="pref06lev1sec1.html" id="pref06lev1sec1.html" media-type="application/xhtml+xml"/>
+        <item href="pref06lev1sec2.html" id="pref06lev1sec2.html" media-type="application/xhtml+xml"/>
+        <item href="pref06lev1sec3.html" id="pref06lev1sec3.html" media-type="application/xhtml+xml"/>
+        <item href="pref06lev1sec4.html" id="pref06lev1sec4.html" media-type="application/xhtml+xml"/>
+        <item href="images/xxviifig01.gif" id="xxviifig01.gif" media-type="image/gif"/>
+        <item href="pref06lev1sec5.html" id="pref06lev1sec5.html" media-type="application/xhtml+xml"/>
+        <item href="pref06lev1sec7.html" id="pref06lev1sec7.html" media-type="application/xhtml+xml"/>
+        <item href="ch01.html" id="ch01.html" media-type="application/xhtml+xml"/>
+        <item href="ch01lev1sec1.html" id="ch01lev1sec1.html" media-type="application/xhtml+xml"/>
+        <item href="images/01fig01.gif" id="x01fig01.gif" media-type="image/gif"/>
+        <item href="ch01lev1sec2.html" id="ch01lev1sec2.html" media-type="application/xhtml+xml"/>
+        <item href="ch01lev1sec3.html" id="ch01lev1sec3.html" media-type="application/xhtml+xml"/>
+        <item href="ch01lev1sec4.html" id="ch01lev1sec4.html" media-type="application/xhtml+xml"/>
+        <item href="ch01lev1sec5.html" id="ch01lev1sec5.html" media-type="application/xhtml+xml"/>
+        <item href="ch01lev1sec6.html" id="ch01lev1sec6.html" media-type="application/xhtml+xml"/>
+        <item href="ch01lev1sec7.html" id="ch01lev1sec7.html" media-type="application/xhtml+xml"/>
+        <item href="ch01lev1sec8.html" id="ch01lev1sec8.html" media-type="application/xhtml+xml"/>
+        <item href="ch01lev1sec9.html" id="ch01lev1sec9.html" media-type="application/xhtml+xml"/>
+        <item href="ch01lev1sec10.html" id="ch01lev1sec10.html" media-type="application/xhtml+xml"/>
+        <item href="images/01fig11.gif" id="x01fig11.gif" media-type="image/gif"/>
+        <item href="images/01fig12.gif" id="x01fig12.gif" media-type="image/gif"/>
+        <item href="ch01lev1sec11.html" id="ch01lev1sec11.html" media-type="application/xhtml+xml"/>
+        <item href="ch01lev1sec12.html" id="ch01lev1sec12.html" media-type="application/xhtml+xml"/>
+        <item href="ch01lev1sec20.html" id="ch01lev1sec20.html" media-type="application/xhtml+xml"/>
+        <item href="ch02.html" id="ch02.html" media-type="application/xhtml+xml"/>
+        <item href="ch02lev1sec1.html" id="ch02lev1sec1.html" media-type="application/xhtml+xml"/>
+        <item href="ch02lev1sec2.html" id="ch02lev1sec2.html" media-type="application/xhtml+xml"/>
+        <item href="ch02lev1sec3.html" id="ch02lev1sec3.html" media-type="application/xhtml+xml"/>
+        <item href="ch02lev1sec4.html" id="ch02lev1sec4.html" media-type="application/xhtml+xml"/>
+        <item href="images/U2265.GIF" id="U2265.GIF" media-type="image/gif"/>
+        <item href="ch02lev1sec5.html" id="ch02lev1sec5.html" media-type="application/xhtml+xml"/>
+        <item href="ch02lev1sec6.html" id="ch02lev1sec6.html" media-type="application/xhtml+xml"/>
+        <item href="ch02lev1sec7.html" id="ch02lev1sec7.html" media-type="application/xhtml+xml"/>
+        <item href="ch02lev1sec8.html" id="ch02lev1sec8.html" media-type="application/xhtml+xml"/>
+        <item href="ch02lev1sec9.html" id="ch02lev1sec9.html" media-type="application/xhtml+xml"/>
+        <item href="ch02lev1sec10.html" id="ch02lev1sec10.html" media-type="application/xhtml+xml"/>
+        <item href="ch02lev1sec17.html" id="ch02lev1sec17.html" media-type="application/xhtml+xml"/>
+        <item href="ch03.html" id="ch03.html" media-type="application/xhtml+xml"/>
+        <item href="ch03lev1sec1.html" id="ch03lev1sec1.html" media-type="application/xhtml+xml"/>
+        <item href="ch03lev1sec2.html" id="ch03lev1sec2.html" media-type="application/xhtml+xml"/>
+        <item href="ch03lev1sec3.html" id="ch03lev1sec3.html" media-type="application/xhtml+xml"/>
+        <item href="ch03lev1sec4.html" id="ch03lev1sec4.html" media-type="application/xhtml+xml"/>
+        <item href="ch03lev1sec5.html" id="ch03lev1sec5.html" media-type="application/xhtml+xml"/>
+        <item href="ch03lev1sec6.html" id="ch03lev1sec6.html" media-type="application/xhtml+xml"/>
+        <item href="ch03lev1sec7.html" id="ch03lev1sec7.html" media-type="application/xhtml+xml"/>
+        <item href="ch03lev1sec8.html" id="ch03lev1sec8.html" media-type="application/xhtml+xml"/>
+        <item href="ch03lev1sec9.html" id="ch03lev1sec9.html" media-type="application/xhtml+xml"/>
+        <item href="images/03fig06.gif" id="x03fig06.gif" media-type="image/gif"/>
+        <item href="images/03fig07.gif" id="x03fig07.gif" media-type="image/gif"/>
+        <item href="ch03lev1sec10.html" id="ch03lev1sec10.html" media-type="application/xhtml+xml"/>
+        <item href="ch03lev1sec11.html" id="ch03lev1sec11.html" media-type="application/xhtml+xml"/>
+        <item href="images/03fig08.gif" id="x03fig08.gif" media-type="image/gif"/>
+        <item href="ch03lev1sec12.html" id="ch03lev1sec12.html" media-type="application/xhtml+xml"/>
+        <item href="ch03lev1sec13.html" id="ch03lev1sec13.html" media-type="application/xhtml+xml"/>
+        <item href="ch03lev1sec14.html" id="ch03lev1sec14.html" media-type="application/xhtml+xml"/>
+        <item href="ch03lev1sec15.html" id="ch03lev1sec15.html" media-type="application/xhtml+xml"/>
+        <item href="ch03lev1sec16.html" id="ch03lev1sec16.html" media-type="application/xhtml+xml"/>
+        <item href="ch03lev1sec17.html" id="ch03lev1sec17.html" media-type="application/xhtml+xml"/>
+        <item href="ch03lev1sec18.html" id="ch03lev1sec18.html" media-type="application/xhtml+xml"/>
+        <item href="ch04.html" id="ch04.html" media-type="application/xhtml+xml"/>
+        <item href="ch04lev1sec1.html" id="ch04lev1sec1.html" media-type="application/xhtml+xml"/>
+        <item href="ch04lev1sec2.html" id="ch04lev1sec2.html" media-type="application/xhtml+xml"/>
+        <item href="ch04lev1sec3.html" id="ch04lev1sec3.html" media-type="application/xhtml+xml"/>
+        <item href="ch04lev1sec4.html" id="ch04lev1sec4.html" media-type="application/xhtml+xml"/>
+        <item href="ch04lev1sec5.html" id="ch04lev1sec5.html" media-type="application/xhtml+xml"/>
+        <item href="ch04lev1sec6.html" id="ch04lev1sec6.html" media-type="application/xhtml+xml"/>
+        <item href="ch04lev1sec7.html" id="ch04lev1sec7.html" media-type="application/xhtml+xml"/>
+        <item href="ch04lev1sec8.html" id="ch04lev1sec8.html" media-type="application/xhtml+xml"/>
+        <item href="ch04lev1sec9.html" id="ch04lev1sec9.html" media-type="application/xhtml+xml"/>
+        <item href="ch04lev1sec10.html" id="ch04lev1sec10.html" media-type="application/xhtml+xml"/>
+        <item href="ch04lev1sec11.html" id="ch04lev1sec11.html" media-type="application/xhtml+xml"/>
+        <item href="ch04lev1sec12.html" id="ch04lev1sec12.html" media-type="application/xhtml+xml"/>
+        <item href="ch04lev1sec13.html" id="ch04lev1sec13.html" media-type="application/xhtml+xml"/>
+        <item href="images/04fig13.gif" id="x04fig13.gif" media-type="image/gif"/>
+        <item href="images/04fig14.gif" id="x04fig14.gif" media-type="image/gif"/>
+        <item href="images/04fig15.gif" id="x04fig15.gif" media-type="image/gif"/>
+        <item href="ch04lev1sec14.html" id="ch04lev1sec14.html" media-type="application/xhtml+xml"/>
+        <item href="ch04lev1sec15.html" id="ch04lev1sec15.html" media-type="application/xhtml+xml"/>
+        <item href="images/04fig18.gif" id="x04fig18.gif" media-type="image/gif"/>
+        <item href="ch04lev1sec16.html" id="ch04lev1sec16.html" media-type="application/xhtml+xml"/>
+        <item href="ch04lev1sec17.html" id="ch04lev1sec17.html" media-type="application/xhtml+xml"/>
+        <item href="ch04lev1sec18.html" id="ch04lev1sec18.html" media-type="application/xhtml+xml"/>
+        <item href="ch04lev1sec19.html" id="ch04lev1sec19.html" media-type="application/xhtml+xml"/>
+        <item href="ch04lev1sec20.html" id="ch04lev1sec20.html" media-type="application/xhtml+xml"/>
+        <item href="ch04lev1sec21.html" id="ch04lev1sec21.html" media-type="application/xhtml+xml"/>
+        <item href="ch04lev1sec22.html" id="ch04lev1sec22.html" media-type="application/xhtml+xml"/>
+        <item href="ch04lev1sec23.html" id="ch04lev1sec23.html" media-type="application/xhtml+xml"/>
+        <item href="ch04lev1sec24.html" id="ch04lev1sec24.html" media-type="application/xhtml+xml"/>
+        <item href="ch04lev1sec25.html" id="ch04lev1sec25.html" media-type="application/xhtml+xml"/>
+        <item href="ch04lev1sec26.html" id="ch04lev1sec26.html" media-type="application/xhtml+xml"/>
+        <item href="ch05.html" id="ch05.html" media-type="application/xhtml+xml"/>
+        <item href="ch05lev1sec1.html" id="ch05lev1sec1.html" media-type="application/xhtml+xml"/>
+        <item href="ch05lev1sec2.html" id="ch05lev1sec2.html" media-type="application/xhtml+xml"/>
+        <item href="ch05lev1sec3.html" id="ch05lev1sec3.html" media-type="application/xhtml+xml"/>
+        <item href="ch05lev1sec4.html" id="ch05lev1sec4.html" media-type="application/xhtml+xml"/>
+        <item href="ch05lev1sec5.html" id="ch05lev1sec5.html" media-type="application/xhtml+xml"/>
+        <item href="ch05lev1sec6.html" id="ch05lev1sec6.html" media-type="application/xhtml+xml"/>
+        <item href="ch05lev1sec7.html" id="ch05lev1sec7.html" media-type="application/xhtml+xml"/>
+        <item href="ch05lev1sec8.html" id="ch05lev1sec8.html" media-type="application/xhtml+xml"/>
+        <item href="ch05lev1sec9.html" id="ch05lev1sec9.html" media-type="application/xhtml+xml"/>
+        <item href="ch05lev1sec10.html" id="ch05lev1sec10.html" media-type="application/xhtml+xml"/>
+        <item href="ch05lev1sec11.html" id="ch05lev1sec11.html" media-type="application/xhtml+xml"/>
+        <item href="ch05lev1sec12.html" id="ch05lev1sec12.html" media-type="application/xhtml+xml"/>
+        <item href="ch05lev1sec13.html" id="ch05lev1sec13.html" media-type="application/xhtml+xml"/>
+        <item href="ch05lev1sec14.html" id="ch05lev1sec14.html" media-type="application/xhtml+xml"/>
+        <item href="ch05lev1sec15.html" id="ch05lev1sec15.html" media-type="application/xhtml+xml"/>
+        <item href="ch05lev1sec16.html" id="ch05lev1sec16.html" media-type="application/xhtml+xml"/>
+        <item href="ch06.html" id="ch06.html" media-type="application/xhtml+xml"/>
+        <item href="ch06lev1sec1.html" id="ch06lev1sec1.html" media-type="application/xhtml+xml"/>
+        <item href="ch06lev1sec2.html" id="ch06lev1sec2.html" media-type="application/xhtml+xml"/>
+        <item href="ch06lev1sec3.html" id="ch06lev1sec3.html" media-type="application/xhtml+xml"/>
+        <item href="ch06lev1sec4.html" id="ch06lev1sec4.html" media-type="application/xhtml+xml"/>
+        <item href="ch06lev1sec5.html" id="ch06lev1sec5.html" media-type="application/xhtml+xml"/>
+        <item href="ch06lev1sec6.html" id="ch06lev1sec6.html" media-type="application/xhtml+xml"/>
+        <item href="ch06lev1sec7.html" id="ch06lev1sec7.html" media-type="application/xhtml+xml"/>
+        <item href="ch06lev1sec8.html" id="ch06lev1sec8.html" media-type="application/xhtml+xml"/>
+        <item href="ch06lev1sec9.html" id="ch06lev1sec9.html" media-type="application/xhtml+xml"/>
+        <item href="images/06fig08.gif" id="x06fig08.gif" media-type="image/gif"/>
+        <item href="ch06lev1sec10.html" id="ch06lev1sec10.html" media-type="application/xhtml+xml"/>
+        <item href="ch06lev1sec11.html" id="ch06lev1sec11.html" media-type="application/xhtml+xml"/>
+        <item href="ch06lev1sec12.html" id="ch06lev1sec12.html" media-type="application/xhtml+xml"/>
+        <item href="ch07.html" id="ch07.html" media-type="application/xhtml+xml"/>
+        <item href="ch07lev1sec1.html" id="ch07lev1sec1.html" media-type="application/xhtml+xml"/>
+        <item href="ch07lev1sec2.html" id="ch07lev1sec2.html" media-type="application/xhtml+xml"/>
+        <item href="images/07fig02.gif" id="x07fig02.gif" media-type="image/gif"/>
+        <item href="ch07lev1sec3.html" id="ch07lev1sec3.html" media-type="application/xhtml+xml"/>
+        <item href="ch07lev1sec4.html" id="ch07lev1sec4.html" media-type="application/xhtml+xml"/>
+        <item href="images/07fig05.gif" id="x07fig05.gif" media-type="image/gif"/>
+        <item href="ch07lev1sec5.html" id="ch07lev1sec5.html" media-type="application/xhtml+xml"/>
+        <item href="images/07fig06.gif" id="x07fig06.gif" media-type="image/gif"/>
+        <item href="ch07lev1sec6.html" id="ch07lev1sec6.html" media-type="application/xhtml+xml"/>
+        <item href="ch07lev1sec7.html" id="ch07lev1sec7.html" media-type="application/xhtml+xml"/>
+        <item href="ch07lev1sec8.html" id="ch07lev1sec8.html" media-type="application/xhtml+xml"/>
+        <item href="ch07lev1sec9.html" id="ch07lev1sec9.html" media-type="application/xhtml+xml"/>
+        <item href="images/07fig10.gif" id="x07fig10.gif" media-type="image/gif"/>
+        <item href="images/07fig12.gif" id="x07fig12.gif" media-type="image/gif"/>
+        <item href="ch07lev1sec10.html" id="ch07lev1sec10.html" media-type="application/xhtml+xml"/>
+        <item href="ch07lev1sec11.html" id="ch07lev1sec11.html" media-type="application/xhtml+xml"/>
+        <item href="ch07lev1sec12.html" id="ch07lev1sec12.html" media-type="application/xhtml+xml"/>
+        <item href="ch07lev1sec13.html" id="ch07lev1sec13.html" media-type="application/xhtml+xml"/>
+        <item href="ch08.html" id="ch08.html" media-type="application/xhtml+xml"/>
+        <item href="ch08lev1sec1.html" id="ch08lev1sec1.html" media-type="application/xhtml+xml"/>
+        <item href="ch08lev1sec2.html" id="ch08lev1sec2.html" media-type="application/xhtml+xml"/>
+        <item href="images/08fig02.gif" id="x08fig02.gif" media-type="image/gif"/>
+        <item href="ch08lev1sec3.html" id="ch08lev1sec3.html" media-type="application/xhtml+xml"/>
+        <item href="ch08lev1sec4.html" id="ch08lev1sec4.html" media-type="application/xhtml+xml"/>
+        <item href="ch08lev1sec5.html" id="ch08lev1sec5.html" media-type="application/xhtml+xml"/>
+        <item href="ch08lev1sec6.html" id="ch08lev1sec6.html" media-type="application/xhtml+xml"/>
+        <item href="ch08lev1sec7.html" id="ch08lev1sec7.html" media-type="application/xhtml+xml"/>
+        <item href="ch08lev1sec8.html" id="ch08lev1sec8.html" media-type="application/xhtml+xml"/>
+        <item href="ch08lev1sec9.html" id="ch08lev1sec9.html" media-type="application/xhtml+xml"/>
+        <item href="images/08fig15.gif" id="x08fig15.gif" media-type="image/gif"/>
+        <item href="ch08lev1sec10.html" id="ch08lev1sec10.html" media-type="application/xhtml+xml"/>
+        <item href="images/08fig19.gif" id="x08fig19.gif" media-type="image/gif"/>
+        <item href="ch08lev1sec11.html" id="ch08lev1sec11.html" media-type="application/xhtml+xml"/>
+        <item href="ch08lev1sec12.html" id="ch08lev1sec12.html" media-type="application/xhtml+xml"/>
+        <item href="ch08lev1sec13.html" id="ch08lev1sec13.html" media-type="application/xhtml+xml"/>
+        <item href="images/08fig27.gif" id="x08fig27.gif" media-type="image/gif"/>
+        <item href="ch08lev1sec14.html" id="ch08lev1sec14.html" media-type="application/xhtml+xml"/>
+        <item href="ch08lev1sec15.html" id="ch08lev1sec15.html" media-type="application/xhtml+xml"/>
+        <item href="ch08lev1sec16.html" id="ch08lev1sec16.html" media-type="application/xhtml+xml"/>
+        <item href="ch08lev1sec17.html" id="ch08lev1sec17.html" media-type="application/xhtml+xml"/>
+        <item href="ch08lev1sec18.html" id="ch08lev1sec18.html" media-type="application/xhtml+xml"/>
+        <item href="ch09.html" id="ch09.html" media-type="application/xhtml+xml"/>
+        <item href="ch09lev1sec1.html" id="ch09lev1sec1.html" media-type="application/xhtml+xml"/>
+        <item href="images/09fig01.gif" id="x09fig01.gif" media-type="image/gif"/>
+        <item href="images/09fig02.gif" id="x09fig02.gif" media-type="image/gif"/>
+        <item href="images/09fig03.gif" id="x09fig03.gif" media-type="image/gif"/>
+        <item href="ch09lev1sec2.html" id="ch09lev1sec2.html" media-type="application/xhtml+xml"/>
+        <item href="images/09fig04.gif" id="x09fig04.gif" media-type="image/gif"/>
+        <item href="images/09fig05.gif" id="x09fig05.gif" media-type="image/gif"/>
+        <item href="ch09lev1sec3.html" id="ch09lev1sec3.html" media-type="application/xhtml+xml"/>
+        <item href="ch09lev1sec4.html" id="ch09lev1sec4.html" media-type="application/xhtml+xml"/>
+        <item href="images/09fig06.gif" id="x09fig06.gif" media-type="image/gif"/>
+        <item href="ch09lev1sec5.html" id="ch09lev1sec5.html" media-type="application/xhtml+xml"/>
+        <item href="images/09fig07.gif" id="x09fig07.gif" media-type="image/gif"/>
+        <item href="ch09lev1sec6.html" id="ch09lev1sec6.html" media-type="application/xhtml+xml"/>
+        <item href="ch09lev1sec7.html" id="ch09lev1sec7.html" media-type="application/xhtml+xml"/>
+        <item href="images/09fig08.gif" id="x09fig08.gif" media-type="image/gif"/>
+        <item href="ch09lev1sec8.html" id="ch09lev1sec8.html" media-type="application/xhtml+xml"/>
+        <item href="images/09fig09.gif" id="x09fig09.gif" media-type="image/gif"/>
+        <item href="ch09lev1sec9.html" id="ch09lev1sec9.html" media-type="application/xhtml+xml"/>
+        <item href="images/09fig10.gif" id="x09fig10.gif" media-type="image/gif"/>
+        <item href="ch09lev1sec10.html" id="ch09lev1sec10.html" media-type="application/xhtml+xml"/>
+        <item href="images/09fig12.gif" id="x09fig12.gif" media-type="image/gif"/>
+        <item href="ch09lev1sec11.html" id="ch09lev1sec11.html" media-type="application/xhtml+xml"/>
+        <item href="ch09lev1sec12.html" id="ch09lev1sec12.html" media-type="application/xhtml+xml"/>
+        <item href="ch09lev1sec13.html" id="ch09lev1sec13.html" media-type="application/xhtml+xml"/>
+        <item href="ch10.html" id="ch10.html" media-type="application/xhtml+xml"/>
+        <item href="ch10lev1sec1.html" id="ch10lev1sec1.html" media-type="application/xhtml+xml"/>
+        <item href="ch10lev1sec2.html" id="ch10lev1sec2.html" media-type="application/xhtml+xml"/>
+        <item href="ch10lev1sec3.html" id="ch10lev1sec3.html" media-type="application/xhtml+xml"/>
+        <item href="ch10lev1sec4.html" id="ch10lev1sec4.html" media-type="application/xhtml+xml"/>
+        <item href="ch10lev1sec5.html" id="ch10lev1sec5.html" media-type="application/xhtml+xml"/>
+        <item href="ch10lev1sec6.html" id="ch10lev1sec6.html" media-type="application/xhtml+xml"/>
+        <item href="ch10lev1sec7.html" id="ch10lev1sec7.html" media-type="application/xhtml+xml"/>
+        <item href="ch10lev1sec8.html" id="ch10lev1sec8.html" media-type="application/xhtml+xml"/>
+        <item href="ch10lev1sec9.html" id="ch10lev1sec9.html" media-type="application/xhtml+xml"/>
+        <item href="ch10lev1sec10.html" id="ch10lev1sec10.html" media-type="application/xhtml+xml"/>
+        <item href="ch10lev1sec11.html" id="ch10lev1sec11.html" media-type="application/xhtml+xml"/>
+        <item href="ch10lev1sec12.html" id="ch10lev1sec12.html" media-type="application/xhtml+xml"/>
+        <item href="ch10lev1sec13.html" id="ch10lev1sec13.html" media-type="application/xhtml+xml"/>
+        <item href="ch10lev1sec14.html" id="ch10lev1sec14.html" media-type="application/xhtml+xml"/>
+        <item href="images/10fig21.gif" id="x10fig21.gif" media-type="image/gif"/>
+        <item href="ch10lev1sec15.html" id="ch10lev1sec15.html" media-type="application/xhtml+xml"/>
+        <item href="ch10lev1sec16.html" id="ch10lev1sec16.html" media-type="application/xhtml+xml"/>
+        <item href="ch10lev1sec17.html" id="ch10lev1sec17.html" media-type="application/xhtml+xml"/>
+        <item href="images/10fig27.gif" id="x10fig27.gif" media-type="image/gif"/>
+        <item href="ch10lev1sec18.html" id="ch10lev1sec18.html" media-type="application/xhtml+xml"/>
+        <item href="ch10lev1sec19.html" id="ch10lev1sec19.html" media-type="application/xhtml+xml"/>
+        <item href="ch10lev1sec20.html" id="ch10lev1sec20.html" media-type="application/xhtml+xml"/>
+        <item href="ch10lev1sec21.html" id="ch10lev1sec21.html" media-type="application/xhtml+xml"/>
+        <item href="ch10lev1sec22.html" id="ch10lev1sec22.html" media-type="application/xhtml+xml"/>
+        <item href="ch10lev1sec23.html" id="ch10lev1sec23.html" media-type="application/xhtml+xml"/>
+        <item href="ch11.html" id="ch11.html" media-type="application/xhtml+xml"/>
+        <item href="ch11lev1sec1.html" id="ch11lev1sec1.html" media-type="application/xhtml+xml"/>
+        <item href="ch11lev1sec2.html" id="ch11lev1sec2.html" media-type="application/xhtml+xml"/>
+        <item href="images/11fig01.gif" id="x11fig01.gif" media-type="image/gif"/>
+        <item href="ch11lev1sec3.html" id="ch11lev1sec3.html" media-type="application/xhtml+xml"/>
+        <item href="ch11lev1sec4.html" id="ch11lev1sec4.html" media-type="application/xhtml+xml"/>
+        <item href="ch11lev1sec5.html" id="ch11lev1sec5.html" media-type="application/xhtml+xml"/>
+        <item href="images/11fig07.gif" id="x11fig07.gif" media-type="image/gif"/>
+        <item href="images/11fig08.gif" id="x11fig08.gif" media-type="image/gif"/>
+        <item href="images/11fig09.gif" id="x11fig09.gif" media-type="image/gif"/>
+        <item href="ch11lev1sec6.html" id="ch11lev1sec6.html" media-type="application/xhtml+xml"/>
+        <item href="ch11lev1sec7.html" id="ch11lev1sec7.html" media-type="application/xhtml+xml"/>
+        <item href="ch11lev1sec8.html" id="ch11lev1sec8.html" media-type="application/xhtml+xml"/>
+        <item href="ch12.html" id="ch12.html" media-type="application/xhtml+xml"/>
+        <item href="ch12lev1sec1.html" id="ch12lev1sec1.html" media-type="application/xhtml+xml"/>
+        <item href="ch12lev1sec2.html" id="ch12lev1sec2.html" media-type="application/xhtml+xml"/>
+        <item href="ch12lev1sec3.html" id="ch12lev1sec3.html" media-type="application/xhtml+xml"/>
+        <item href="images/12fig06.gif" id="x12fig06.gif" media-type="image/gif"/>
+        <item href="images/12fig07.gif" id="x12fig07.gif" media-type="image/gif"/>
+        <item href="ch12lev1sec4.html" id="ch12lev1sec4.html" media-type="application/xhtml+xml"/>
+        <item href="ch12lev1sec5.html" id="ch12lev1sec5.html" media-type="application/xhtml+xml"/>
+        <item href="ch12lev1sec6.html" id="ch12lev1sec6.html" media-type="application/xhtml+xml"/>
+        <item href="ch12lev1sec7.html" id="ch12lev1sec7.html" media-type="application/xhtml+xml"/>
+        <item href="ch12lev1sec8.html" id="ch12lev1sec8.html" media-type="application/xhtml+xml"/>
+        <item href="ch12lev1sec9.html" id="ch12lev1sec9.html" media-type="application/xhtml+xml"/>
+        <item href="ch12lev1sec10.html" id="ch12lev1sec10.html" media-type="application/xhtml+xml"/>
+        <item href="ch12lev1sec11.html" id="ch12lev1sec11.html" media-type="application/xhtml+xml"/>
+        <item href="ch12lev1sec12.html" id="ch12lev1sec12.html" media-type="application/xhtml+xml"/>
+        <item href="ch13.html" id="ch13.html" media-type="application/xhtml+xml"/>
+        <item href="ch13lev1sec1.html" id="ch13lev1sec1.html" media-type="application/xhtml+xml"/>
+        <item href="ch13lev1sec2.html" id="ch13lev1sec2.html" media-type="application/xhtml+xml"/>
+        <item href="ch13lev1sec3.html" id="ch13lev1sec3.html" media-type="application/xhtml+xml"/>
+        <item href="images/13fig02.gif" id="x13fig02.gif" media-type="image/gif"/>
+        <item href="ch13lev1sec4.html" id="ch13lev1sec4.html" media-type="application/xhtml+xml"/>
+        <item href="ch13lev1sec5.html" id="ch13lev1sec5.html" media-type="application/xhtml+xml"/>
+        <item href="ch13lev1sec6.html" id="ch13lev1sec6.html" media-type="application/xhtml+xml"/>
+        <item href="ch13lev1sec7.html" id="ch13lev1sec7.html" media-type="application/xhtml+xml"/>
+        <item href="ch13lev1sec8.html" id="ch13lev1sec8.html" media-type="application/xhtml+xml"/>
+        <item href="ch13lev1sec9.html" id="ch13lev1sec9.html" media-type="application/xhtml+xml"/>
+        <item href="ch14.html" id="ch14.html" media-type="application/xhtml+xml"/>
+        <item href="ch14lev1sec1.html" id="ch14lev1sec1.html" media-type="application/xhtml+xml"/>
+        <item href="ch14lev1sec2.html" id="ch14lev1sec2.html" media-type="application/xhtml+xml"/>
+        <item href="images/14fig03.gif" id="x14fig03.gif" media-type="image/gif"/>
+        <item href="images/14fig04.gif" id="x14fig04.gif" media-type="image/gif"/>
+        <item href="images/14fig08.gif" id="x14fig08.gif" media-type="image/gif"/>
+        <item href="images/14fig10.gif" id="x14fig10.gif" media-type="image/gif"/>
+        <item href="ch14lev1sec3.html" id="ch14lev1sec3.html" media-type="application/xhtml+xml"/>
+        <item href="images/14fig13.gif" id="x14fig13.gif" media-type="image/gif"/>
+        <item href="images/14fig14.gif" id="x14fig14.gif" media-type="image/gif"/>
+        <item href="ch14lev1sec4.html" id="ch14lev1sec4.html" media-type="application/xhtml+xml"/>
+        <item href="images/14fig20.gif" id="x14fig20.gif" media-type="image/gif"/>
+        <item href="images/14fig21.gif" id="x14fig21.gif" media-type="image/gif"/>
+        <item href="images/14fig23.gif" id="x14fig23.gif" media-type="image/gif"/>
+        <item href="images/14fig24.gif" id="x14fig24.gif" media-type="image/gif"/>
+        <item href="ch14lev1sec5.html" id="ch14lev1sec5.html" media-type="application/xhtml+xml"/>
+        <item href="ch14lev1sec6.html" id="ch14lev1sec6.html" media-type="application/xhtml+xml"/>
+        <item href="images/14fig27.gif" id="x14fig27.gif" media-type="image/gif"/>
+        <item href="ch14lev1sec7.html" id="ch14lev1sec7.html" media-type="application/xhtml+xml"/>
+        <item href="ch14lev1sec8.html" id="ch14lev1sec8.html" media-type="application/xhtml+xml"/>
+        <item href="images/14fig31.gif" id="x14fig31.gif" media-type="image/gif"/>
+        <item href="ch14lev1sec9.html" id="ch14lev1sec9.html" media-type="application/xhtml+xml"/>
+        <item href="ch14lev1sec10.html" id="ch14lev1sec10.html" media-type="application/xhtml+xml"/>
+        <item href="ch14lev1sec11.html" id="ch14lev1sec11.html" media-type="application/xhtml+xml"/>
+        <item href="ch15.html" id="ch15.html" media-type="application/xhtml+xml"/>
+        <item href="ch15lev1sec1.html" id="ch15lev1sec1.html" media-type="application/xhtml+xml"/>
+        <item href="images/15fig02.gif" id="x15fig02.gif" media-type="image/gif"/>
+        <item href="images/15fig03.gif" id="x15fig03.gif" media-type="image/gif"/>
+        <item href="images/15fig04.gif" id="x15fig04.gif" media-type="image/gif"/>
+        <item href="images/15fig08.gif" id="x15fig08.gif" media-type="image/gif"/>
+        <item href="ch15lev1sec2.html" id="ch15lev1sec2.html" media-type="application/xhtml+xml"/>
+        <item href="images/15fig09.gif" id="x15fig09.gif" media-type="image/gif"/>
+        <item href="images/15fig10.gif" id="x15fig10.gif" media-type="image/gif"/>
+        <item href="images/15fig13.gif" id="x15fig13.gif" media-type="image/gif"/>
+        <item href="ch15lev1sec3.html" id="ch15lev1sec3.html" media-type="application/xhtml+xml"/>
+        <item href="images/15fig16.gif" id="x15fig16.gif" media-type="image/gif"/>
+        <item href="ch15lev1sec4.html" id="ch15lev1sec4.html" media-type="application/xhtml+xml"/>
+        <item href="images/15fig20.gif" id="x15fig20.gif" media-type="image/gif"/>
+        <item href="images/15fig21.gif" id="x15fig21.gif" media-type="image/gif"/>
+        <item href="images/15fig22.gif" id="x15fig22.gif" media-type="image/gif"/>
+        <item href="images/15fig23.gif" id="x15fig23.gif" media-type="image/gif"/>
+        <item href="ch15lev1sec5.html" id="ch15lev1sec5.html" media-type="application/xhtml+xml"/>
+        <item href="ch15lev1sec6.html" id="ch15lev1sec6.html" media-type="application/xhtml+xml"/>
+        <item href="ch15lev1sec7.html" id="ch15lev1sec7.html" media-type="application/xhtml+xml"/>
+        <item href="ch15lev1sec8.html" id="ch15lev1sec8.html" media-type="application/xhtml+xml"/>
+        <item href="images/15fig32.gif" id="x15fig32.gif" media-type="image/gif"/>
+        <item href="ch15lev1sec9.html" id="ch15lev1sec9.html" media-type="application/xhtml+xml"/>
+        <item href="ch15lev1sec10.html" id="ch15lev1sec10.html" media-type="application/xhtml+xml"/>
+        <item href="ch15lev1sec11.html" id="ch15lev1sec11.html" media-type="application/xhtml+xml"/>
+        <item href="ch15lev1sec12.html" id="ch15lev1sec12.html" media-type="application/xhtml+xml"/>
+        <item href="ch16.html" id="ch16.html" media-type="application/xhtml+xml"/>
+        <item href="ch16lev1sec1.html" id="ch16lev1sec1.html" media-type="application/xhtml+xml"/>
+        <item href="ch16lev1sec2.html" id="ch16lev1sec2.html" media-type="application/xhtml+xml"/>
+        <item href="images/16fig04.gif" id="x16fig04.gif" media-type="image/gif"/>
+        <item href="ch16lev1sec3.html" id="ch16lev1sec3.html" media-type="application/xhtml+xml"/>
+        <item href="ch16lev1sec4.html" id="ch16lev1sec4.html" media-type="application/xhtml+xml"/>
+        <item href="ch16lev1sec5.html" id="ch16lev1sec5.html" media-type="application/xhtml+xml"/>
+        <item href="ch16lev1sec6.html" id="ch16lev1sec6.html" media-type="application/xhtml+xml"/>
+        <item href="ch16lev1sec7.html" id="ch16lev1sec7.html" media-type="application/xhtml+xml"/>
+        <item href="images/U2020.GIF" id="U2020.GIF" media-type="image/gif"/>
+        <item href="ch16lev1sec8.html" id="ch16lev1sec8.html" media-type="application/xhtml+xml"/>
+        <item href="ch16lev1sec9.html" id="ch16lev1sec9.html" media-type="application/xhtml+xml"/>
+        <item href="ch16lev1sec10.html" id="ch16lev1sec10.html" media-type="application/xhtml+xml"/>
+        <item href="ch17.html" id="ch17.html" media-type="application/xhtml+xml"/>
+        <item href="ch17lev1sec1.html" id="ch17lev1sec1.html" media-type="application/xhtml+xml"/>
+        <item href="images/17fig01.gif" id="x17fig01.gif" media-type="image/gif"/>
+        <item href="images/17fig02.gif" id="x17fig02.gif" media-type="image/gif"/>
+        <item href="images/17fig03.gif" id="x17fig03.gif" media-type="image/gif"/>
+        <item href="images/17fig04.gif" id="x17fig04.gif" media-type="image/gif"/>
+        <item href="images/17fig07.gif" id="x17fig07.gif" media-type="image/gif"/>
+        <item href="images/17fig08.gif" id="x17fig08.gif" media-type="image/gif"/>
+        <item href="images/17fig09.gif" id="x17fig09.gif" media-type="image/gif"/>
+        <item href="ch17lev1sec2.html" id="ch17lev1sec2.html" media-type="application/xhtml+xml"/>
+        <item href="ch17lev1sec3.html" id="ch17lev1sec3.html" media-type="application/xhtml+xml"/>
+        <item href="images/17fig18.gif" id="x17fig18.gif" media-type="image/gif"/>
+        <item href="ch17lev1sec4.html" id="ch17lev1sec4.html" media-type="application/xhtml+xml"/>
+        <item href="ch17lev1sec5.html" id="ch17lev1sec5.html" media-type="application/xhtml+xml"/>
+        <item href="ch17lev1sec6.html" id="ch17lev1sec6.html" media-type="application/xhtml+xml"/>
+        <item href="ch17lev1sec7.html" id="ch17lev1sec7.html" media-type="application/xhtml+xml"/>
+        <item href="ch17lev1sec8.html" id="ch17lev1sec8.html" media-type="application/xhtml+xml"/>
+        <item href="ch18.html" id="ch18.html" media-type="application/xhtml+xml"/>
+        <item href="ch18lev1sec1.html" id="ch18lev1sec1.html" media-type="application/xhtml+xml"/>
+        <item href="images/18fig01.gif" id="x18fig01.gif" media-type="image/gif"/>
+        <item href="images/18fig02.gif" id="x18fig02.gif" media-type="image/gif"/>
+        <item href="images/18fig08.gif" id="x18fig08.gif" media-type="image/gif"/>
+        <item href="ch18lev1sec2.html" id="ch18lev1sec2.html" media-type="application/xhtml+xml"/>
+        <item href="ch18lev1sec3.html" id="ch18lev1sec3.html" media-type="application/xhtml+xml"/>
+        <item href="ch18lev1sec4.html" id="ch18lev1sec4.html" media-type="application/xhtml+xml"/>
+        <item href="ch18lev1sec5.html" id="ch18lev1sec5.html" media-type="application/xhtml+xml"/>
+        <item href="ch18lev1sec6.html" id="ch18lev1sec6.html" media-type="application/xhtml+xml"/>
+        <item href="ch18lev1sec7.html" id="ch18lev1sec7.html" media-type="application/xhtml+xml"/>
+        <item href="ch18lev1sec8.html" id="ch18lev1sec8.html" media-type="application/xhtml+xml"/>
+        <item href="ch18lev1sec9.html" id="ch18lev1sec9.html" media-type="application/xhtml+xml"/>
+        <item href="ch18lev1sec10.html" id="ch18lev1sec10.html" media-type="application/xhtml+xml"/>
+        <item href="images/18fig19.gif" id="x18fig19.gif" media-type="image/gif"/>
+        <item href="ch18lev1sec11.html" id="ch18lev1sec11.html" media-type="application/xhtml+xml"/>
+        <item href="ch18lev1sec12.html" id="ch18lev1sec12.html" media-type="application/xhtml+xml"/>
+        <item href="ch18lev1sec13.html" id="ch18lev1sec13.html" media-type="application/xhtml+xml"/>
+        <item href="ch18lev1sec14.html" id="ch18lev1sec14.html" media-type="application/xhtml+xml"/>
+        <item href="ch18lev1sec15.html" id="ch18lev1sec15.html" media-type="application/xhtml+xml"/>
+        <item href="ch19.html" id="ch19.html" media-type="application/xhtml+xml"/>
+        <item href="ch19lev1sec1.html" id="ch19lev1sec1.html" media-type="application/xhtml+xml"/>
+        <item href="images/19fig01.gif" id="x19fig01.gif" media-type="image/gif"/>
+        <item href="images/19fig02.gif" id="x19fig02.gif" media-type="image/gif"/>
+        <item href="images/19fig03.gif" id="x19fig03.gif" media-type="image/gif"/>
+        <item href="images/19fig04.gif" id="x19fig04.gif" media-type="image/gif"/>
+        <item href="images/19fig05.gif" id="x19fig05.gif" media-type="image/gif"/>
+        <item href="images/19fig06.gif" id="x19fig06.gif" media-type="image/gif"/>
+        <item href="ch19lev1sec2.html" id="ch19lev1sec2.html" media-type="application/xhtml+xml"/>
+        <item href="ch19lev1sec3.html" id="ch19lev1sec3.html" media-type="application/xhtml+xml"/>
+        <item href="ch19lev1sec4.html" id="ch19lev1sec4.html" media-type="application/xhtml+xml"/>
+        <item href="ch19lev1sec5.html" id="ch19lev1sec5.html" media-type="application/xhtml+xml"/>
+        <item href="images/19fig14.gif" id="x19fig14.gif" media-type="image/gif"/>
+        <item href="images/19fig15.gif" id="x19fig15.gif" media-type="image/gif"/>
+        <item href="images/19fig16.gif" id="x19fig16.gif" media-type="image/gif"/>
+        <item href="ch19lev1sec6.html" id="ch19lev1sec6.html" media-type="application/xhtml+xml"/>
+        <item href="ch19lev1sec7.html" id="ch19lev1sec7.html" media-type="application/xhtml+xml"/>
+        <item href="ch19lev1sec8.html" id="ch19lev1sec8.html" media-type="application/xhtml+xml"/>
+        <item href="ch19lev1sec9.html" id="ch19lev1sec9.html" media-type="application/xhtml+xml"/>
+        <item href="ch20.html" id="ch20.html" media-type="application/xhtml+xml"/>
+        <item href="ch20lev1sec1.html" id="ch20lev1sec1.html" media-type="application/xhtml+xml"/>
+        <item href="ch20lev1sec2.html" id="ch20lev1sec2.html" media-type="application/xhtml+xml"/>
+        <item href="ch20lev1sec3.html" id="ch20lev1sec3.html" media-type="application/xhtml+xml"/>
+        <item href="images/20fig02.gif" id="x20fig02.gif" media-type="image/gif"/>
+        <item href="ch20lev1sec4.html" id="ch20lev1sec4.html" media-type="application/xhtml+xml"/>
+        <item href="images/20fig04.gif" id="x20fig04.gif" media-type="image/gif"/>
+        <item href="images/20fig05.gif" id="x20fig05.gif" media-type="image/gif"/>
+        <item href="ch20lev1sec5.html" id="ch20lev1sec5.html" media-type="application/xhtml+xml"/>
+        <item href="ch20lev1sec6.html" id="ch20lev1sec6.html" media-type="application/xhtml+xml"/>
+        <item href="ch20lev1sec7.html" id="ch20lev1sec7.html" media-type="application/xhtml+xml"/>
+        <item href="ch20lev1sec8.html" id="ch20lev1sec8.html" media-type="application/xhtml+xml"/>
+        <item href="images/20fig09.gif" id="x20fig09.gif" media-type="image/gif"/>
+        <item href="ch20lev1sec9.html" id="ch20lev1sec9.html" media-type="application/xhtml+xml"/>
+        <item href="ch20lev1sec10.html" id="ch20lev1sec10.html" media-type="application/xhtml+xml"/>
+        <item href="ch20lev1sec11.html" id="ch20lev1sec11.html" media-type="application/xhtml+xml"/>
+        <item href="ch21.html" id="ch21.html" media-type="application/xhtml+xml"/>
+        <item href="ch21lev1sec1.html" id="ch21lev1sec1.html" media-type="application/xhtml+xml"/>
+        <item href="images/21fig01.gif" id="x21fig01.gif" media-type="image/gif"/>
+        <item href="images/21fig02.gif" id="x21fig02.gif" media-type="image/gif"/>
+        <item href="images/21fig03.gif" id="x21fig03.gif" media-type="image/gif"/>
+        <item href="ch21lev1sec2.html" id="ch21lev1sec2.html" media-type="application/xhtml+xml"/>
+        <item href="ch21lev1sec3.html" id="ch21lev1sec3.html" media-type="application/xhtml+xml"/>
+        <item href="images/21fig06.gif" id="x21fig06.gif" media-type="image/gif"/>
+        <item href="ch21lev1sec4.html" id="ch21lev1sec4.html" media-type="application/xhtml+xml"/>
+        <item href="ch21lev1sec5.html" id="ch21lev1sec5.html" media-type="application/xhtml+xml"/>
+        <item href="ch21lev1sec6.html" id="ch21lev1sec6.html" media-type="application/xhtml+xml"/>
+        <item href="ch21lev1sec7.html" id="ch21lev1sec7.html" media-type="application/xhtml+xml"/>
+        <item href="a.html" id="a.html" media-type="application/xhtml+xml"/>
+        <item href="b.html" id="b.html" media-type="application/xhtml+xml"/>
+        <item href="c.html" id="c.html" media-type="application/xhtml+xml"/>
+        <item href="d.html" id="d.html" media-type="application/xhtml+xml"/>
+        <item href="e.html" id="e.html" media-type="application/xhtml+xml"/>
+        <item href="f.html" id="f.html" media-type="application/xhtml+xml"/>
+        <item href="g.html" id="g.html" media-type="application/xhtml+xml"/>
+        <item href="h.html" id="h.html" media-type="application/xhtml+xml"/>
+        <item href="i.html" id="i.html" media-type="application/xhtml+xml"/>
+        <item href="j.html" id="j.html" media-type="application/xhtml+xml"/>
+        <item href="k.html" id="k.html" media-type="application/xhtml+xml"/>
+        <item href="l.html" id="l.html" media-type="application/xhtml+xml"/>
+        <item href="m.html" id="m.html" media-type="application/xhtml+xml"/>
+        <item href="n.html" id="n.html" media-type="application/xhtml+xml"/>
+        <item href="o.html" id="o.html" media-type="application/xhtml+xml"/>
+        <item href="p.html" id="p.html" media-type="application/xhtml+xml"/>
+        <item href="q.html" id="q.html" media-type="application/xhtml+xml"/>
+        <item href="r.html" id="r.html" media-type="application/xhtml+xml"/>
+        <item href="s.html" id="s.html" media-type="application/xhtml+xml"/>
+        <item href="t.html" id="t.html" media-type="application/xhtml+xml"/>
+        <item href="u.html" id="u.html" media-type="application/xhtml+xml"/>
+        <item href="v.html" id="v.html" media-type="application/xhtml+xml"/>
+        <item href="w.html" id="w.html" media-type="application/xhtml+xml"/>
+        <item href="x.html" id="x.html" media-type="application/xhtml+xml"/>
+        <item href="y.html" id="y.html" media-type="application/xhtml+xml"/>
+        <item href="z.html" id="z.html" media-type="application/xhtml+xml"/>
+        <item href="index.html" id="index.html" media-type="application/xhtml+xml"/>
+        <item href="symbol.html" id="symbol.html" media-type="application/xhtml+xml"/>
+        <item href="copyrightpg.html" id="copyrightpg.html" media-type="application/xhtml+xml"/>
+        <item href="images/ccc.gif" id="ccc.gif" media-type="image/gif"/>
+        <item href="images/xcfig02.gif" id="xcfig02.gif" media-type="image/gif"/>
+        <item href="images/xcfig08.gif" id="xcfig08.gif" media-type="image/gif"/>
+        <item href="images/xcfig10.gif" id="xcfig10.gif" media-type="image/gif"/>
+        <item href="app01.html" id="app01.html" media-type="application/xhtml+xml"/>
+        <item href="app02.html" id="app02.html" media-type="application/xhtml+xml"/>
+        <item href="app02lev1sec1.html" id="app02lev1sec1.html" media-type="application/xhtml+xml"/>
+        <item href="app02lev1sec2.html" id="app02lev1sec2.html" media-type="application/xhtml+xml"/>
+        <item href="app03.html" id="app03.html" media-type="application/xhtml+xml"/>
+        <item href="app03lev1sec1.html" id="app03lev1sec1.html" media-type="application/xhtml+xml"/>
+        <item href="app03lev1sec2.html" id="app03lev1sec2.html" media-type="application/xhtml+xml"/>
+        <item href="app03lev1sec3.html" id="app03lev1sec3.html" media-type="application/xhtml+xml"/>
+        <item href="app03lev1sec4.html" id="app03lev1sec4.html" media-type="application/xhtml+xml"/>
+        <item href="app03lev1sec5.html" id="app03lev1sec5.html" media-type="application/xhtml+xml"/>
+        <item href="app03lev1sec6.html" id="app03lev1sec6.html" media-type="application/xhtml+xml"/>
+        <item href="app03lev1sec7.html" id="app03lev1sec7.html" media-type="application/xhtml+xml"/>
+        <item href="app03lev1sec8.html" id="app03lev1sec8.html" media-type="application/xhtml+xml"/>
+        <item href="app03lev1sec9.html" id="app03lev1sec9.html" media-type="application/xhtml+xml"/>
+        <item href="app03lev1sec10.html" id="app03lev1sec10.html" media-type="application/xhtml+xml"/>
+        <item href="app03lev1sec11.html" id="app03lev1sec11.html" media-type="application/xhtml+xml"/>
+        <item href="app03lev1sec12.html" id="app03lev1sec12.html" media-type="application/xhtml+xml"/>
+        <item href="app03lev1sec13.html" id="app03lev1sec13.html" media-type="application/xhtml+xml"/>
+        <item href="app03lev1sec14.html" id="app03lev1sec14.html" media-type="application/xhtml+xml"/>
+        <item href="app03lev1sec15.html" id="app03lev1sec15.html" media-type="application/xhtml+xml"/>
+        <item href="app03lev1sec16.html" id="app03lev1sec16.html" media-type="application/xhtml+xml"/>
+        <item href="app03lev1sec17.html" id="app03lev1sec17.html" media-type="application/xhtml+xml"/>
+        <item href="app03lev1sec18.html" id="app03lev1sec18.html" media-type="application/xhtml+xml"/>
+        <item href="app03lev1sec19.html" id="app03lev1sec19.html" media-type="application/xhtml+xml"/>
+        <item href="app03lev1sec20.html" id="app03lev1sec20.html" media-type="application/xhtml+xml"/>
+        <item href="app03lev1sec21.html" id="app03lev1sec21.html" media-type="application/xhtml+xml"/>
+        <item href="bib01.html" id="bib01.html" media-type="application/xhtml+xml"/>
+        <item href="images/03fig06_alt.gif" id="x03fig06_alt.gif" media-type="image/gif"/>
+        <item href="images/03fig07_alt.gif" id="x03fig07_alt.gif" media-type="image/gif"/>
+        <item href="images/03fig08_alt.gif" id="x03fig08_alt.gif" media-type="image/gif"/>
+        <item href="images/04fig13_alt.gif" id="x04fig13_alt.gif" media-type="image/gif"/>
+        <item href="images/04fig14_alt.gif" id="x04fig14_alt.gif" media-type="image/gif"/>
+        <item href="images/04fig15_alt.gif" id="x04fig15_alt.gif" media-type="image/gif"/>
+        <item href="images/07fig02_alt.gif" id="x07fig02_alt.gif" media-type="image/gif"/>
+        <item href="images/07fig05_alt.gif" id="x07fig05_alt.gif" media-type="image/gif"/>
+        <item href="images/08fig02_alt.gif" id="x08fig02_alt.gif" media-type="image/gif"/>
+        <item href="images/08fig15_alt.gif" id="x08fig15_alt.gif" media-type="image/gif"/>
+        <item href="images/08fig19_alt.gif" id="x08fig19_alt.gif" media-type="image/gif"/>
+        <item href="images/08fig27_alt.gif" id="x08fig27_alt.gif" media-type="image/gif"/>
+        <item href="images/09fig06_alt.gif" id="x09fig06_alt.gif" media-type="image/gif"/>
+        <item href="images/09fig07_alt.gif" id="x09fig07_alt.gif" media-type="image/gif"/>
+        <item href="images/09fig08_alt.gif" id="x09fig08_alt.gif" media-type="image/gif"/>
+        <item href="images/09fig09_alt.gif" id="x09fig09_alt.gif" media-type="image/gif"/>
+        <item href="images/09fig12_alt.gif" id="x09fig12_alt.gif" media-type="image/gif"/>
+        <item href="images/10fig21_alt.gif" id="x10fig21_alt.gif" media-type="image/gif"/>
+        <item href="images/10fig27_alt.gif" id="x10fig27_alt.gif" media-type="image/gif"/>
+        <item href="images/11fig09_alt.gif" id="x11fig09_alt.gif" media-type="image/gif"/>
+        <item href="images/12fig06_alt.gif" id="x12fig06_alt.gif" media-type="image/gif"/>
+        <item href="images/12fig07_alt.gif" id="x12fig07_alt.gif" media-type="image/gif"/>
+        <item href="images/14fig08_alt.gif" id="x14fig08_alt.gif" media-type="image/gif"/>
+        <item href="images/14fig27_alt.gif" id="x14fig27_alt.gif" media-type="image/gif"/>
+        <item href="images/14fig31_alt.gif" id="x14fig31_alt.gif" media-type="image/gif"/>
+        <item href="images/15fig02_alt.gif" id="x15fig02_alt.gif" media-type="image/gif"/>
+        <item href="images/15fig21_alt.gif" id="x15fig21_alt.gif" media-type="image/gif"/>
+        <item href="images/15fig32_alt.gif" id="x15fig32_alt.gif" media-type="image/gif"/>
+        <item href="images/17fig01_alt.gif" id="x17fig01_alt.gif" media-type="image/gif"/>
+        <item href="images/17fig09_alt.gif" id="x17fig09_alt.gif" media-type="image/gif"/>
+        <item href="images/17fig18_alt.gif" id="x17fig18_alt.gif" media-type="image/gif"/>
+        <item href="images/18fig01_alt.gif" id="x18fig01_alt.gif" media-type="image/gif"/>
+        <item href="images/18fig08_alt.gif" id="x18fig08_alt.gif" media-type="image/gif"/>
+        <item href="images/18fig19_alt.gif" id="x18fig19_alt.gif" media-type="image/gif"/>
+        <item href="images/19fig04_alt.gif" id="x19fig04_alt.gif" media-type="image/gif"/>
+        <item href="images/19fig14_alt.gif" id="x19fig14_alt.gif" media-type="image/gif"/>
+        <item href="images/19fig15_alt.gif" id="x19fig15_alt.gif" media-type="image/gif"/>
+        <item href="images/19fig16_alt.gif" id="x19fig16_alt.gif" media-type="image/gif"/>
+        <item href="images/20fig02_alt.gif" id="x20fig02_alt.gif" media-type="image/gif"/>
+        <item href="images/20fig09_alt.gif" id="x20fig09_alt.gif" media-type="image/gif"/>
+        <item href="images/21fig01_alt.gif" id="x21fig01_alt.gif" media-type="image/gif"/>
+        <item href="images/21fig06_alt.gif" id="x21fig06_alt.gif" media-type="image/gif"/>
+        <item href="images/overview_hed.gif" id="overview_hed.gif" media-type="image/gif"/>
+        <item href="images/xcfig02_alt.gif" id="xcfig02_alt.gif" media-type="image/gif"/>
+        <item href="images/xcfig10_alt.gif" id="xcfig10_alt.gif" media-type="image/gif"/>
+        <item href="images/xxviifig01_alt.gif" id="xxviifig01_alt.gif" media-type="image/gif"/>
+        <item href="images/0201433079_xs.jpg" id="x0201433079_xs.jpg" media-type="image/jpeg"/>
+        <item href="images/cover.jpg" id="cover.jpg" media-type="image/jpeg"/>
+    </manifest>
+    <spine toc="ncx">
+        <itemref idref="toc.html"/>
+        <itemref idref="copyrightpg.html"/>
+        <itemref idref="pref01.html"/>
+        <itemref idref="pref02.html"/>
+        <itemref idref="pref03.html"/>
+        <itemref idref="pref04.html"/>
+        <itemref idref="pref05.html"/>
+        <itemref idref="pref05lev1sec1.html"/>
+        <itemref idref="pref05lev1sec2.html"/>
+        <itemref idref="pref05lev1sec3.html"/>
+        <itemref idref="pref06.html"/>
+        <itemref idref="pref06lev1sec1.html"/>
+        <itemref idref="pref06lev1sec2.html"/>
+        <itemref idref="pref06lev1sec3.html"/>
+        <itemref idref="pref06lev1sec4.html"/>
+        <itemref idref="pref06lev1sec5.html"/>
+        <itemref idref="pref06lev1sec7.html"/>
+        <itemref idref="ch01.html"/>
+        <itemref idref="ch01lev1sec1.html"/>
+        <itemref idref="ch01lev1sec2.html"/>
+        <itemref idref="ch01lev1sec3.html"/>
+        <itemref idref="ch01lev1sec4.html"/>
+        <itemref idref="ch01lev1sec5.html"/>
+        <itemref idref="ch01lev1sec6.html"/>
+        <itemref idref="ch01lev1sec7.html"/>
+        <itemref idref="ch01lev1sec8.html"/>
+        <itemref idref="ch01lev1sec9.html"/>
+        <itemref idref="ch01lev1sec10.html"/>
+        <itemref idref="ch01lev1sec11.html"/>
+        <itemref idref="ch01lev1sec12.html"/>
+        <itemref idref="ch01lev1sec20.html"/>
+        <itemref idref="ch02.html"/>
+        <itemref idref="ch02lev1sec1.html"/>
+        <itemref idref="ch02lev1sec2.html"/>
+        <itemref idref="ch02lev1sec3.html"/>
+        <itemref idref="ch02lev1sec4.html"/>
+        <itemref idref="ch02lev1sec5.html"/>
+        <itemref idref="ch02lev1sec6.html"/>
+        <itemref idref="ch02lev1sec7.html"/>
+        <itemref idref="ch02lev1sec8.html"/>
+        <itemref idref="ch02lev1sec9.html"/>
+        <itemref idref="ch02lev1sec10.html"/>
+        <itemref idref="ch02lev1sec17.html"/>
+        <itemref idref="ch03.html"/>
+        <itemref idref="ch03lev1sec1.html"/>
+        <itemref idref="ch03lev1sec2.html"/>
+        <itemref idref="ch03lev1sec3.html"/>
+        <itemref idref="ch03lev1sec4.html"/>
+        <itemref idref="ch03lev1sec5.html"/>
+        <itemref idref="ch03lev1sec6.html"/>
+        <itemref idref="ch03lev1sec7.html"/>
+        <itemref idref="ch03lev1sec8.html"/>
+        <itemref idref="ch03lev1sec9.html"/>
+        <itemref idref="ch03lev1sec10.html"/>
+        <itemref idref="ch03lev1sec11.html"/>
+        <itemref idref="ch03lev1sec12.html"/>
+        <itemref idref="ch03lev1sec13.html"/>
+        <itemref idref="ch03lev1sec14.html"/>
+        <itemref idref="ch03lev1sec15.html"/>
+        <itemref idref="ch03lev1sec16.html"/>
+        <itemref idref="ch03lev1sec17.html"/>
+        <itemref idref="ch03lev1sec18.html"/>
+        <itemref idref="ch04.html"/>
+        <itemref idref="ch04lev1sec1.html"/>
+        <itemref idref="ch04lev1sec2.html"/>
+        <itemref idref="ch04lev1sec3.html"/>
+        <itemref idref="ch04lev1sec4.html"/>
+        <itemref idref="ch04lev1sec5.html"/>
+        <itemref idref="ch04lev1sec6.html"/>
+        <itemref idref="ch04lev1sec7.html"/>
+        <itemref idref="ch04lev1sec8.html"/>
+        <itemref idref="ch04lev1sec9.html"/>
+        <itemref idref="ch04lev1sec10.html"/>
+        <itemref idref="ch04lev1sec11.html"/>
+        <itemref idref="ch04lev1sec12.html"/>
+        <itemref idref="ch04lev1sec13.html"/>
+        <itemref idref="ch04lev1sec14.html"/>
+        <itemref idref="ch04lev1sec15.html"/>
+        <itemref idref="ch04lev1sec16.html"/>
+        <itemref idref="ch04lev1sec17.html"/>
+        <itemref idref="ch04lev1sec18.html"/>
+        <itemref idref="ch04lev1sec19.html"/>
+        <itemref idref="ch04lev1sec20.html"/>
+        <itemref idref="ch04lev1sec21.html"/>
+        <itemref idref="ch04lev1sec22.html"/>
+        <itemref idref="ch04lev1sec23.html"/>
+        <itemref idref="ch04lev1sec24.html"/>
+        <itemref idref="ch04lev1sec25.html"/>
+        <itemref idref="ch04lev1sec26.html"/>
+        <itemref idref="ch05.html"/>
+        <itemref idref="ch05lev1sec1.html"/>
+        <itemref idref="ch05lev1sec2.html"/>
+        <itemref idref="ch05lev1sec3.html"/>
+        <itemref idref="ch05lev1sec4.html"/>
+        <itemref idref="ch05lev1sec5.html"/>
+        <itemref idref="ch05lev1sec6.html"/>
+        <itemref idref="ch05lev1sec7.html"/>
+        <itemref idref="ch05lev1sec8.html"/>
+        <itemref idref="ch05lev1sec9.html"/>
+        <itemref idref="ch05lev1sec10.html"/>
+        <itemref idref="ch05lev1sec11.html"/>
+        <itemref idref="ch05lev1sec12.html"/>
+        <itemref idref="ch05lev1sec13.html"/>
+        <itemref idref="ch05lev1sec14.html"/>
+        <itemref idref="ch05lev1sec15.html"/>
+        <itemref idref="ch05lev1sec16.html"/>
+        <itemref idref="ch06.html"/>
+        <itemref idref="ch06lev1sec1.html"/>
+        <itemref idref="ch06lev1sec2.html"/>
+        <itemref idref="ch06lev1sec3.html"/>
+        <itemref idref="ch06lev1sec4.html"/>
+        <itemref idref="ch06lev1sec5.html"/>
+        <itemref idref="ch06lev1sec6.html"/>
+        <itemref idref="ch06lev1sec7.html"/>
+        <itemref idref="ch06lev1sec8.html"/>
+        <itemref idref="ch06lev1sec9.html"/>
+        <itemref idref="ch06lev1sec10.html"/>
+        <itemref idref="ch06lev1sec11.html"/>
+        <itemref idref="ch06lev1sec12.html"/>
+        <itemref idref="ch07.html"/>
+        <itemref idref="ch07lev1sec1.html"/>
+        <itemref idref="ch07lev1sec2.html"/>
+        <itemref idref="ch07lev1sec3.html"/>
+        <itemref idref="ch07lev1sec4.html"/>
+        <itemref idref="ch07lev1sec5.html"/>
+        <itemref idref="ch07lev1sec6.html"/>
+        <itemref idref="ch07lev1sec7.html"/>
+        <itemref idref="ch07lev1sec8.html"/>
+        <itemref idref="ch07lev1sec9.html"/>
+        <itemref idref="ch07lev1sec10.html"/>
+        <itemref idref="ch07lev1sec11.html"/>
+        <itemref idref="ch07lev1sec12.html"/>
+        <itemref idref="ch07lev1sec13.html"/>
+        <itemref idref="ch08.html"/>
+        <itemref idref="ch08lev1sec1.html"/>
+        <itemref idref="ch08lev1sec2.html"/>
+        <itemref idref="ch08lev1sec3.html"/>
+        <itemref idref="ch08lev1sec4.html"/>
+        <itemref idref="ch08lev1sec5.html"/>
+        <itemref idref="ch08lev1sec6.html"/>
+        <itemref idref="ch08lev1sec7.html"/>
+        <itemref idref="ch08lev1sec8.html"/>
+        <itemref idref="ch08lev1sec9.html"/>
+        <itemref idref="ch08lev1sec10.html"/>
+        <itemref idref="ch08lev1sec11.html"/>
+        <itemref idref="ch08lev1sec12.html"/>
+        <itemref idref="ch08lev1sec13.html"/>
+        <itemref idref="ch08lev1sec14.html"/>
+        <itemref idref="ch08lev1sec15.html"/>
+        <itemref idref="ch08lev1sec16.html"/>
+        <itemref idref="ch08lev1sec17.html"/>
+        <itemref idref="ch08lev1sec18.html"/>
+        <itemref idref="ch09.html"/>
+        <itemref idref="ch09lev1sec1.html"/>
+        <itemref idref="ch09lev1sec2.html"/>
+        <itemref idref="ch09lev1sec3.html"/>
+        <itemref idref="ch09lev1sec4.html"/>
+        <itemref idref="ch09lev1sec5.html"/>
+        <itemref idref="ch09lev1sec6.html"/>
+        <itemref idref="ch09lev1sec7.html"/>
+        <itemref idref="ch09lev1sec8.html"/>
+        <itemref idref="ch09lev1sec9.html"/>
+        <itemref idref="ch09lev1sec10.html"/>
+        <itemref idref="ch09lev1sec11.html"/>
+        <itemref idref="ch09lev1sec12.html"/>
+        <itemref idref="ch09lev1sec13.html"/>
+        <itemref idref="ch10.html"/>
+        <itemref idref="ch10lev1sec1.html"/>
+        <itemref idref="ch10lev1sec2.html"/>
+        <itemref idref="ch10lev1sec3.html"/>
+        <itemref idref="ch10lev1sec4.html"/>
+        <itemref idref="ch10lev1sec5.html"/>
+        <itemref idref="ch10lev1sec6.html"/>
+        <itemref idref="ch10lev1sec7.html"/>
+        <itemref idref="ch10lev1sec8.html"/>
+        <itemref idref="ch10lev1sec9.html"/>
+        <itemref idref="ch10lev1sec10.html"/>
+        <itemref idref="ch10lev1sec11.html"/>
+        <itemref idref="ch10lev1sec12.html"/>
+        <itemref idref="ch10lev1sec13.html"/>
+        <itemref idref="ch10lev1sec14.html"/>
+        <itemref idref="ch10lev1sec15.html"/>
+        <itemref idref="ch10lev1sec16.html"/>
+        <itemref idref="ch10lev1sec17.html"/>
+        <itemref idref="ch10lev1sec18.html"/>
+        <itemref idref="ch10lev1sec19.html"/>
+        <itemref idref="ch10lev1sec20.html"/>
+        <itemref idref="ch10lev1sec21.html"/>
+        <itemref idref="ch10lev1sec22.html"/>
+        <itemref idref="ch10lev1sec23.html"/>
+        <itemref idref="ch11.html"/>
+        <itemref idref="ch11lev1sec1.html"/>
+        <itemref idref="ch11lev1sec2.html"/>
+        <itemref idref="ch11lev1sec3.html"/>
+        <itemref idref="ch11lev1sec4.html"/>
+        <itemref idref="ch11lev1sec5.html"/>
+        <itemref idref="ch11lev1sec6.html"/>
+        <itemref idref="ch11lev1sec7.html"/>
+        <itemref idref="ch11lev1sec8.html"/>
+        <itemref idref="ch12.html"/>
+        <itemref idref="ch12lev1sec1.html"/>
+        <itemref idref="ch12lev1sec2.html"/>
+        <itemref idref="ch12lev1sec3.html"/>
+        <itemref idref="ch12lev1sec4.html"/>
+        <itemref idref="ch12lev1sec5.html"/>
+        <itemref idref="ch12lev1sec6.html"/>
+        <itemref idref="ch12lev1sec7.html"/>
+        <itemref idref="ch12lev1sec8.html"/>
+        <itemref idref="ch12lev1sec9.html"/>
+        <itemref idref="ch12lev1sec10.html"/>
+        <itemref idref="ch12lev1sec11.html"/>
+        <itemref idref="ch12lev1sec12.html"/>
+        <itemref idref="ch13.html"/>
+        <itemref idref="ch13lev1sec1.html"/>
+        <itemref idref="ch13lev1sec2.html"/>
+        <itemref idref="ch13lev1sec3.html"/>
+        <itemref idref="ch13lev1sec4.html"/>
+        <itemref idref="ch13lev1sec5.html"/>
+        <itemref idref="ch13lev1sec6.html"/>
+        <itemref idref="ch13lev1sec7.html"/>
+        <itemref idref="ch13lev1sec8.html"/>
+        <itemref idref="ch13lev1sec9.html"/>
+        <itemref idref="ch14.html"/>
+        <itemref idref="ch14lev1sec1.html"/>
+        <itemref idref="ch14lev1sec2.html"/>
+        <itemref idref="ch14lev1sec3.html"/>
+        <itemref idref="ch14lev1sec4.html"/>
+        <itemref idref="ch14lev1sec5.html"/>
+        <itemref idref="ch14lev1sec6.html"/>
+        <itemref idref="ch14lev1sec7.html"/>
+        <itemref idref="ch14lev1sec8.html"/>
+        <itemref idref="ch14lev1sec9.html"/>
+        <itemref idref="ch14lev1sec10.html"/>
+        <itemref idref="ch14lev1sec11.html"/>
+        <itemref idref="ch15.html"/>
+        <itemref idref="ch15lev1sec1.html"/>
+        <itemref idref="ch15lev1sec2.html"/>
+        <itemref idref="ch15lev1sec3.html"/>
+        <itemref idref="ch15lev1sec4.html"/>
+        <itemref idref="ch15lev1sec5.html"/>
+        <itemref idref="ch15lev1sec6.html"/>
+        <itemref idref="ch15lev1sec7.html"/>
+        <itemref idref="ch15lev1sec8.html"/>
+        <itemref idref="ch15lev1sec9.html"/>
+        <itemref idref="ch15lev1sec10.html"/>
+        <itemref idref="ch15lev1sec11.html"/>
+        <itemref idref="ch15lev1sec12.html"/>
+        <itemref idref="ch16.html"/>
+        <itemref idref="ch16lev1sec1.html"/>
+        <itemref idref="ch16lev1sec2.html"/>
+        <itemref idref="ch16lev1sec3.html"/>
+        <itemref idref="ch16lev1sec4.html"/>
+        <itemref idref="ch16lev1sec5.html"/>
+        <itemref idref="ch16lev1sec6.html"/>
+        <itemref idref="ch16lev1sec7.html"/>
+        <itemref idref="ch16lev1sec8.html"/>
+        <itemref idref="ch16lev1sec9.html"/>
+        <itemref idref="ch16lev1sec10.html"/>
+        <itemref idref="ch17.html"/>
+        <itemref idref="ch17lev1sec1.html"/>
+        <itemref idref="ch17lev1sec2.html"/>
+        <itemref idref="ch17lev1sec3.html"/>
+        <itemref idref="ch17lev1sec4.html"/>
+        <itemref idref="ch17lev1sec5.html"/>
+        <itemref idref="ch17lev1sec6.html"/>
+        <itemref idref="ch17lev1sec7.html"/>
+        <itemref idref="ch17lev1sec8.html"/>
+        <itemref idref="ch18.html"/>
+        <itemref idref="ch18lev1sec1.html"/>
+        <itemref idref="ch18lev1sec2.html"/>
+        <itemref idref="ch18lev1sec3.html"/>
+        <itemref idref="ch18lev1sec4.html"/>
+        <itemref idref="ch18lev1sec5.html"/>
+        <itemref idref="ch18lev1sec6.html"/>
+        <itemref idref="ch18lev1sec7.html"/>
+        <itemref idref="ch18lev1sec8.html"/>
+        <itemref idref="ch18lev1sec9.html"/>
+        <itemref idref="ch18lev1sec10.html"/>
+        <itemref idref="ch18lev1sec11.html"/>
+        <itemref idref="ch18lev1sec12.html"/>
+        <itemref idref="ch18lev1sec13.html"/>
+        <itemref idref="ch18lev1sec14.html"/>
+        <itemref idref="ch18lev1sec15.html"/>
+        <itemref idref="ch19.html"/>
+        <itemref idref="ch19lev1sec1.html"/>
+        <itemref idref="ch19lev1sec2.html"/>
+        <itemref idref="ch19lev1sec3.html"/>
+        <itemref idref="ch19lev1sec4.html"/>
+        <itemref idref="ch19lev1sec5.html"/>
+        <itemref idref="ch19lev1sec6.html"/>
+        <itemref idref="ch19lev1sec7.html"/>
+        <itemref idref="ch19lev1sec8.html"/>
+        <itemref idref="ch19lev1sec9.html"/>
+        <itemref idref="ch20.html"/>
+        <itemref idref="ch20lev1sec1.html"/>
+        <itemref idref="ch20lev1sec2.html"/>
+        <itemref idref="ch20lev1sec3.html"/>
+        <itemref idref="ch20lev1sec4.html"/>
+        <itemref idref="ch20lev1sec5.html"/>
+        <itemref idref="ch20lev1sec6.html"/>
+        <itemref idref="ch20lev1sec7.html"/>
+        <itemref idref="ch20lev1sec8.html"/>
+        <itemref idref="ch20lev1sec9.html"/>
+        <itemref idref="ch20lev1sec10.html"/>
+        <itemref idref="ch20lev1sec11.html"/>
+        <itemref idref="ch21.html"/>
+        <itemref idref="ch21lev1sec1.html"/>
+        <itemref idref="ch21lev1sec2.html"/>
+        <itemref idref="ch21lev1sec3.html"/>
+        <itemref idref="ch21lev1sec4.html"/>
+        <itemref idref="ch21lev1sec5.html"/>
+        <itemref idref="ch21lev1sec6.html"/>
+        <itemref idref="ch21lev1sec7.html"/>
+        <itemref idref="app01.html"/>
+        <itemref idref="app02.html"/>
+        <itemref idref="app02lev1sec1.html"/>
+        <itemref idref="app02lev1sec2.html"/>
+        <itemref idref="app03.html"/>
+        <itemref idref="app03lev1sec1.html"/>
+        <itemref idref="app03lev1sec2.html"/>
+        <itemref idref="app03lev1sec3.html"/>
+        <itemref idref="app03lev1sec4.html"/>
+        <itemref idref="app03lev1sec5.html"/>
+        <itemref idref="app03lev1sec6.html"/>
+        <itemref idref="app03lev1sec7.html"/>
+        <itemref idref="app03lev1sec8.html"/>
+        <itemref idref="app03lev1sec9.html"/>
+        <itemref idref="app03lev1sec10.html"/>
+        <itemref idref="app03lev1sec11.html"/>
+        <itemref idref="app03lev1sec12.html"/>
+        <itemref idref="app03lev1sec13.html"/>
+        <itemref idref="app03lev1sec14.html"/>
+        <itemref idref="app03lev1sec15.html"/>
+        <itemref idref="app03lev1sec16.html"/>
+        <itemref idref="app03lev1sec17.html"/>
+        <itemref idref="app03lev1sec18.html"/>
+        <itemref idref="app03lev1sec19.html"/>
+        <itemref idref="app03lev1sec20.html"/>
+        <itemref idref="app03lev1sec21.html"/>
+        <itemref idref="a.html"/>
+        <itemref idref="b.html"/>
+        <itemref idref="c.html"/>
+        <itemref idref="d.html"/>
+        <itemref idref="e.html"/>
+        <itemref idref="f.html"/>
+        <itemref idref="g.html"/>
+        <itemref idref="h.html"/>
+        <itemref idref="i.html"/>
+        <itemref idref="j.html"/>
+        <itemref idref="k.html"/>
+        <itemref idref="l.html"/>
+        <itemref idref="m.html"/>
+        <itemref idref="n.html"/>
+        <itemref idref="o.html"/>
+        <itemref idref="p.html"/>
+        <itemref idref="q.html"/>
+        <itemref idref="r.html"/>
+        <itemref idref="s.html"/>
+        <itemref idref="t.html"/>
+        <itemref idref="u.html"/>
+        <itemref idref="v.html"/>
+        <itemref idref="w.html"/>
+        <itemref idref="x.html"/>
+        <itemref idref="y.html"/>
+        <itemref idref="z.html"/>
+        <itemref idref="symbol.html"/>
+        <itemref idref="bib01.html"/>
+        <itemref idref="index.html"/>
+    </spine>
+    <guide>
+        <reference href="toc.html" type="toc" title="Table of Contents"/>
+        <reference href="pref04.html" title="Foreword" type="foreword"/>
+        <reference href="index.html" title="Index" type="index"/>
+        <reference href="copyrightpg.html" title="Copyright Page" type="copyright-page"/>
+        <reference href="bib01.html" title="Bibliography" type="bibliography"/>
+        <reference href="ch01.html" title="Text" type="text"/>
+    </guide>
+</package>

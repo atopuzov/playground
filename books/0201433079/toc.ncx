@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE ncx PUBLIC "-//NISO//DTD ncx 2005-1//EN" "http://www.daisy.org/z3986/2005/ncx-2005-1.dtd">
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1">
+    <head>
+        <meta name="dtb:uid" content="urn:uuid:24772526-5fd5-4132-9643-72be421ec820"/>
+        <meta name="dtb:depth" content="0"/>
+        <meta name="dtb:totalPageCount" content="0"/>
+        <meta name="dtb:maxPageNumber" content="0"/>
+    </head>
+    <docTitle>
+        <text>Advanced Programming in the UNIX® Environment: Second Edition</text>
+    </docTitle>
+    <navMap>
+        <navPoint id="navPoint-1" playOrder="1">
+            <navLabel>
+                <text>Table of Contents</text>
+            </navLabel>
+            <content src="toc.html"/>
+        </navPoint>
+        <navPoint id="navPoint-2" playOrder="2">
+            <navLabel>
+                <text>Copyright</text>
+            </navLabel>
+            <content src="copyrightpg.html"/>
+        </navPoint>
+        <navPoint id="navPoint-3" playOrder="3">
+            <navLabel>
+                <text>Praise for Advanced Programming in the UNIX® Environment, Second Edition</text>
+            </navLabel>
+            <content src="pref01.html"/>
+        </navPoint>
+        <navPoint id="navPoint-4" playOrder="4">
+            <navLabel>
+                <text>Praise for the First Edition</text>
+            </navLabel>
+            <content src="pref02.html"/>
+        </navPoint>
+        <navPoint id="navPoint-5" playOrder="5">
+            <navLabel>
+                <text>Addison-Wesley Professional Computing Series</text>
+            </navLabel>
+            <content src="pref03.html"/>
+        </navPoint>
+        <navPoint id="navPoint-6" playOrder="6">
+            <navLabel>
+                <text>Foreword</text>
+            </navLabel>
+            <content src="pref04.html"/>
+        </navPoint>
+        <navPoint id="navPoint-7" playOrder="7">
+            <navLabel>
+                <text>Preface</text>
+            </navLabel>
+            <content src="pref05.html"/>
+        </navPoint>
+        <navPoint id="navPoint-8" playOrder="8">
+            <navLabel>
+                <text>Preface to the First Edition</text>
+            </navLabel>
+            <content src="pref06.html"/>
+        </navPoint>
+        <navPoint id="navPoint-9" playOrder="9">
+            <navLabel>
+                <text>Chapter 1. UNIX System Overview</text>
+            </navLabel>
+            <content src="ch01.html"/>
+        </navPoint>
+        <navPoint id="navPoint-10" playOrder="10">
+            <navLabel>
+                <text>Chapter 2. UNIX Standardization and Implementations</text>
+            </navLabel>
+            <content src="ch02.html"/>
+        </navPoint>
+        <navPoint id="navPoint-11" playOrder="11">
+            <navLabel>
+                <text>Chapter 3. File I/O</text>
+            </navLabel>
+            <content src="ch03.html"/>
+        </navPoint>
+        <navPoint id="navPoint-12" playOrder="12">
+            <navLabel>
+                <text>Chapter 4. Files and Directories</text>
+            </navLabel>
+            <content src="ch04.html"/>
+        </navPoint>
+        <navPoint id="navPoint-13" playOrder="13">
+            <navLabel>
+                <text>Chapter 5. Standard I/O Library</text>
+            </navLabel>
+            <content src="ch05.html"/>
+        </navPoint>
+        <navPoint id="navPoint-14" playOrder="14">
+            <navLabel>
+                <text>Chapter 6. System Data Files and Information</text>
+            </navLabel>
+            <content src="ch06.html"/>
+        </navPoint>
+        <navPoint id="navPoint-15" playOrder="15">
+            <navLabel>
+                <text>Chapter 7. Process Environment</text>
+            </navLabel>
+            <content src="ch07.html"/>
+        </navPoint>
+        <navPoint id="navPoint-16" playOrder="16">
+            <navLabel>
+                <text>Chapter 8. Process Control</text>
+            </navLabel>
+            <content src="ch08.html"/>
+        </navPoint>
+        <navPoint id="navPoint-17" playOrder="17">
+            <navLabel>
+                <text>Chapter 9. Process Relationships</text>
+            </navLabel>
+            <content src="ch09.html"/>
+        </navPoint>
+        <navPoint id="navPoint-18" playOrder="18">
+            <navLabel>
+                <text>Chapter 10. Signals</text>
+            </navLabel>
+            <content src="ch10.html"/>
+        </navPoint>
+        <navPoint id="navPoint-19" playOrder="19">
+            <navLabel>
+                <text>Chapter 11. Threads</text>
+            </navLabel>
+            <content src="ch11.html"/>
+        </navPoint>
+        <navPoint id="navPoint-20" playOrder="20">
+            <navLabel>
+                <text>Chapter 12. Thread Control</text>
+            </navLabel>
+            <content src="ch12.html"/>
+        </navPoint>
+        <navPoint id="navPoint-21" playOrder="21">
+            <navLabel>
+                <text>Chapter 13. Daemon Processes</text>
+            </navLabel>
+            <content src="ch13.html"/>
+        </navPoint>
+        <navPoint id="navPoint-22" playOrder="22">
+            <navLabel>
+                <text>Chapter 14. Advanced I/O</text>
+            </navLabel>
+            <content src="ch14.html"/>
+        </navPoint>
+        <navPoint id="navPoint-23" playOrder="23">
+            <navLabel>
+                <text>Chapter 15. Interprocess Communication</text>
+            </navLabel>
+            <content src="ch15.html"/>
+        </navPoint>
+        <navPoint id="navPoint-24" playOrder="24">
+            <navLabel>
+                <text>Chapter 16. Network IPC: Sockets</text>
+            </navLabel>
+            <content src="ch16.html"/>
+        </navPoint>
+        <navPoint id="navPoint-25" playOrder="25">
+            <navLabel>
+                <text>Chapter 17. Advanced IPC</text>
+            </navLabel>
+            <content src="ch17.html"/>
+        </navPoint>
+        <navPoint id="navPoint-26" playOrder="26">
+            <navLabel>
+                <text>Chapter 18. Terminal I/O</text>
+            </navLabel>
+            <content src="ch18.html"/>
+        </navPoint>
+        <navPoint id="navPoint-27" playOrder="27">
+            <navLabel>
+                <text>Chapter 19. Pseudo Terminals</text>
+            </navLabel>
+            <content src="ch19.html"/>
+        </navPoint>
+        <navPoint id="navPoint-28" playOrder="28">
+            <navLabel>
+                <text>Chapter 20. A Database Library</text>
+            </navLabel>
+            <content src="ch20.html"/>
+        </navPoint>
+        <navPoint id="navPoint-29" playOrder="29">
+            <navLabel>
+                <text>Chapter 21. Communicating with a Network Printer</text>
+            </navLabel>
+            <content src="ch21.html"/>
+        </navPoint>
+        <navPoint id="navPoint-30" playOrder="30">
+            <navLabel>
+                <text>Appendix C. Solutions to Selected Exercises</text>
+            </navLabel>
+            <content src="app03.html"/>
+        </navPoint>
+        <navPoint id="navPoint-31" playOrder="31">
+            <navLabel>
+                <text>Appendix B. Miscellaneous Source Code</text>
+            </navLabel>
+            <content src="app02.html"/>
+        </navPoint>
+        <navPoint id="navPoint-32" playOrder="32">
+            <navLabel>
+                <text>Appendix A. Function Prototypes</text>
+            </navLabel>
+            <content src="app01.html"/>
+        </navPoint>
+        <navPoint id="navPoint-33" playOrder="33">
+            <navLabel>
+                <text>Bibliography</text>
+            </navLabel>
+            <content src="bib01.html"/>
+        </navPoint>
+        <navPoint id="navPoint-34" playOrder="34">
+            <navLabel>
+                <text>Index</text>
+            </navLabel>
+            <content src="index.html"/>
+        </navPoint>
+    </navMap>
+</ncx>
