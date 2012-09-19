@@ -35,3 +35,6 @@ interpose2: libinterposers2.dylib
 
 uname: libuname.dylib
 	DYLD_INSERT_LIBRARIES=./$< uname -v
+
+printlibs: printlibs.o
+	${CC} $^ -o $@
