@@ -30,7 +30,7 @@ void stacktrace()
     fp = saved_fp;
     if (*fp == NULL)
       break;
-    saved_ra = *(fp + 2);
+    saved_ra = *(fp + 1);
     printframeinfo(level, saved_fp, saved_ra);
     level++;
   }
