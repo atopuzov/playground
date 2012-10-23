@@ -1,0 +1,72 @@
+--- libffi-3.0.11/src/arm/sysv.S	2012-04-12 04:46:06.000000000 +0200
++++ libffi-3.0.11.ok/src/arm/sysv.S	2012-10-23 17:29:32.000000000 +0200
+@@ -113,54 +113,32 @@
+ #if defined(__thumb__) && !defined(__THUMB_INTERWORK__)
+ .macro	ARM_FUNC_START name
+ 	.text
+-	.align 0
++	.align 4
+ 	.thumb
+ 	.thumb_func
+-#ifdef __APPLE__
+-	ENTRY($0)
+-#else
+ 	ENTRY(\name)
+-#endif
+ 	bx	pc
+ 	nop
+ 	.arm
+ 	UNWIND .fnstart
+-/* A hook to tell gdb that we've switched to ARM mode.  Also used to call
+-   directly from other local arm routines.  */
+-#ifdef __APPLE__
+-_L__$0:
+-#else
+ _L__\name:
+-#endif
+ .endm
+ #else
+ .macro	ARM_FUNC_START name
+ 	.text
+-	.align 0
++	.align 4
+ 	.arm
+-#ifdef __APPLE__
+-	ENTRY($0)
+-#else
+ 	ENTRY(\name)
+-#endif
+ 	UNWIND .fnstart
+ .endm
+ #endif
+ 
+-.macro	RETLDM	regs=, cond=, dirn=ia
++.macro	RETLDM
+ #if defined (__INTERWORKING__)
+-	.ifc "\regs",""
+-	ldr\cond	lr, [sp], #4
+-	.else
+-	ldm\cond\dirn	sp!, {\regs, lr}
+-	.endif
+-	bx\cond	lr
++	ldr	lr, [sp], #4
++	bx	lr
+ #else
+-	.ifc "\regs",""
+-	ldr\cond	pc, [sp], #4
+-	.else
+-	ldm\cond\dirn	sp!, {\regs, pc}
+-	.endif
++	ldr	pc, [sp], #4
+ #endif
+ .endm
+ 
+@@ -228,7 +206,7 @@
+ #if defined(__SOFTFP__) || defined(__ARM_EABI__)
+ 	cmpne	r3, #FFI_TYPE_DOUBLE
+ #endif
+-	stmeqia	r2, {r0, r1}
++	stmiaeq	r2, {r0, r1}
+ 
+ #if !defined(__SOFTFP__) && !defined(__ARM_EABI__)
+ 	beq	LSYM(Lepilogue)
