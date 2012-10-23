@@ -1,14 +1,15 @@
 #!/bin/bash 
 
-export IOS_VERSION="5.1"
+export IOS_DEPLOYMENT_TARGET="4.3"
+export IOS_SDK_VERSION="6.0"
 
 function set_dev_env(){
     export XCODE_DEVROOT=`xcode-select -print-path`
     export PLATFORM_DEVROOT="${XCODE_DEVROOT}/Platforms/${PLATFORM}.platform/Developer"
-    export SDKROOT="${PLATFORM_DEVROOT}/SDKs/${PLATFORM}${IOS_VERSION}.sdk"
+    export SDKROOT="${PLATFORM_DEVROOT}/SDKs/${PLATFORM}${IOS_SDK_VERSION}.sdk"
     export ODIR="/Users/aco/devel/ios/dist/${PLATFORM}"
     export PATH=${PLATFORM_DEVROOT}/usr/bin:${ODIR}/bin:${PATH}
-    export LDFLAGS="-Wl,-syslibroot,$SDKROOT ${ARCHFLAGS} -L${ODIR}/lib -Lextralibs"
+    export LDFLAGS="-Wl,-syslibroot,$SDKROOT ${ARCHFLAGS} -L${ODIR}/lib"
     export OPTFLAGS="-pipe -O3 -I${ODIR}/include"
     export CFLAGS="-isysroot ${SDKROOT} ${PLATFORM_VERSION_MIN} ${ARCHFLAGS} ${OPTFLAGS}"
     export CXXFLAGS=${CFLAGS}
@@ -28,8 +29,8 @@ if [ "$1" == "sim" ]; then
 elif [ "$1" == "dev" ]; then
     echo "Seting up environment for iPhoneOS"
     export PLATFORM="iPhoneOS"
-    export IPHONEOS_DEPLOYMENT_TARGET="${IOS_VERSION}"
-    export PLATFORM_VERSION_MIN="-miphoneos-version-min=${IPHONEOS_DEPLOYMENT_TARGET}"
+    export IPHONEOS_DEPLOYMENT_TARGET="${IOS_DEPLOYMENT_TARGET}"
+    export PLATFORM_VERSION_MIN="-miphoneos-version-min=${IOS_DEPLOYMENT_TARGET}"
     export ARCHFLAGS="-arch armv7 -m32 -mcpu=cortex-a8 -mno-thumb -mfpu=neon -mfloat-abi=softfp"
     # -ftree-vectorize -ffast-math -fsingle-precision-constant
     set_dev_env
