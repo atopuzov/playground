@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/env python
 # (c) Aleksandar Topuzovic <aleksandar.topuzovic@gmail.com>
 import collections
 

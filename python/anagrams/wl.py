@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/env python
 # (c) 2013 Aleksandar Topuzovic <aleksandar.topuzovic@gmail.com>
 import collections
 import json
@@ -25,7 +25,7 @@ if __name__ == '__main__':
 
         try:
             input = sys.argv[1]
-        except:
+        except IndexError:
             input = 'love'
 
         input = list(input)
