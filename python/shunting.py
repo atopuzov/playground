@@ -79,7 +79,7 @@ def shunting_yard(input):
                 output.append(operator_stack.pop())
             operator_stack.pop()
     while operator_stack:
-        if operator_stack[-1] == ')':
+        if operator_stack[-1] == '(':
             print "Unbalanced parantheses."
         output.append(operator_stack.pop())
 
